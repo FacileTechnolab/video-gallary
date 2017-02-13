@@ -1,0 +1,12 @@
+/*.video-card{
+    width: 200px;
+}*/
+.example-card {
+  width: 200px;
+  height: 400px;
+}
+
+.example-header-image {
+  background-image: url('http://placehold.it/150x150');
+  background-size: cover;
+}

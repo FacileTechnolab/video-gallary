@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { VideosListComponent } from './videos-list.component';
+import { ArrowRightComponent } from './arrow-right.component';
 
-describe('VideosListComponent', () => {
-  let component: VideosListComponent;
-  let fixture: ComponentFixture<VideosListComponent>;
+describe('ArrowRightComponent', () => {
+  let component: ArrowRightComponent;
+  let fixture: ComponentFixture<ArrowRightComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ VideosListComponent ]
+      declarations: [ ArrowRightComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VideosListComponent);
+    fixture = TestBed.createComponent(ArrowRightComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
