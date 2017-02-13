@@ -1,13 +1,13 @@
 <md-tab-group [selectedIndex]="1">
   <md-tab label="Popular" disabled></md-tab>
-  <md-tab label="Videos">
-    <app-arrow-left></app-arrow-left>
-    <app-card></app-card>
+ <md-tab label="Videos">
+    <app-arrow-left [isLatest]="isLatest"></app-arrow-left>
+    <app-card [videos]="videosList"></app-card>
     <app-arrow-right></app-arrow-right>
   </md-tab>
-  <md-tab label="Collection">
+  <md-tab label="Collection" >
     <app-arrow-left></app-arrow-left>
-    <app-card></app-card>
+    <app-card [videos]="videosCollectionList"></app-card>
     <app-arrow-right></app-arrow-right>
   </md-tab>
 </md-tab-group>

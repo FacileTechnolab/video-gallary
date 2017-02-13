@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PopularVideosListComponent implements OnInit {
   isLatest : boolean = false;
+  videosList: any = [{ id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' }]
+
+  videosCollectionList : any = [{ id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' }]
   constructor() { }
 
   ngOnInit() {
