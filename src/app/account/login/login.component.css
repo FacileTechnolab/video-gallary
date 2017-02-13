@@ -1,0 +1,23 @@
+.form-login {
+  max-width: 500px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+}
+md-input-container{
+    width: 100%;
+}
+.social-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+md-icon{
+  height: 40px;
+  width: 40px;
+}
+div button,a{
+   width: 100%;
+}
+.padding{
+  padding-top: 10px;
+}

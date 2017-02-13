@@ -1,0 +1,29 @@
+.app-icon-button {
+  box-shadow: none;
+  user-select: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  filter: none;
+  font-weight: normal;
+  height: auto;
+  line-height: inherit;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+}
+.search-box{
+    width: 700px!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left : 70px;
+}
+.icon{
+  width: 30px,
+}
+.search-box-textbox{
+  width: 60%;
+  height: 25px;
+}
