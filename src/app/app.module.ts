@@ -13,6 +13,8 @@ import { AdminModule } from './admin/admin.module';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { NgProgressModule } from 'ng2-progressbar';
+// import { SwiperModule, SwiperConfigInterface } from 'angular2-swiper-wrapper';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { NgProgressModule } from 'ng2-progressbar';
     AdminModule,
     AccountModule,
     HomeModule
+    //SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

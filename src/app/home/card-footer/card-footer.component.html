@@ -1,0 +1,4 @@
+<md-button-toggle-group>
+  <md-button-toggle *ngFor="let button of buttons" [value]="videoId" (change)="change(videoId,button.id)">
+    <i class="material-icons">{{button.icon}}</i>
+  </md-button-toggle>

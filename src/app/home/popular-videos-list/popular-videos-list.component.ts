@@ -6,19 +6,33 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./popular-videos-list.component.css']
 })
 export class PopularVideosListComponent implements OnInit {
-  isLatest : boolean = false;
-  videosList: any = [{ id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' }]
-
-  videosCollectionList : any = [{ id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-  { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' }]
+  selectedIndex = 2;
+  isLatest: boolean = false;
+  videosList: any = [];
+  collectionsList: any = [];
   constructor() { }
 
   ngOnInit() {
+    this.getData();
   }
-
+  getData() {
+    if (this.selectedIndex == 1) {
+      this.getLatestVideos();
+    }
+    else {
+      this.getLatestCollections();
+    }
+  }
+  private getLatestVideos() {
+    return this.videosList = [{ id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+    { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+    { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+    { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' }];
+  }
+  private getLatestCollections() {
+    return this.collectionsList = [{ id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+    { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+    { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
+    { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' }];
+  }
 }

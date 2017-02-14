@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-arrow-right',
@@ -6,10 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./arrow-right.component.css']
 })
 export class ArrowRightComponent implements OnInit {
-
+  
+  @Output() notify: EventEmitter<string> = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit() {
   }
-
+  getData(isLatest) {
+    if (isLatest) {
+      this.notify.emit('get next records');
+     //alert('get more latest');
+    }
+    else {
+      alert('get more collection');
+    }
+  }
 }

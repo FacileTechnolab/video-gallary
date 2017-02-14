@@ -1,13 +1,10 @@
-<md-tab-group [selectedIndex]="1">
+<md-tab-group [(selectedIndex)]="selectedIndex" (selectChange)="getData()">
   <md-tab label="Popular" disabled></md-tab>
- <md-tab label="Videos">
-    <app-arrow-left [isLatest]="isLatest"></app-arrow-left>
-    <app-card [videos]="videosList"></app-card>
-    <app-arrow-right></app-arrow-right>
+  <md-tab label="Videos">
+     <app-swiper [videos]="videosList"></app-swiper>
   </md-tab>
-  <md-tab label="Collection" >
-    <app-arrow-left></app-arrow-left>
-    <app-card [videos]="videosCollectionList"></app-card>
-    <app-arrow-right></app-arrow-right>
+  <md-tab label="Collection">
+    <app-swiper [videos]="collectionsList"></app-swiper>
   </md-tab>
 </md-tab-group>
+
