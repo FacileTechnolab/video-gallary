@@ -18,6 +18,14 @@ import { LayoutModule } from 'ng2-flex-layout';
 import { CardFooterComponent } from './card-footer/card-footer.component';
 import { SwiperModule, SwiperConfigInterface } from 'angular2-swiper-wrapper';
 import { SwiperComponent } from './swiper/swiper.component';
+import { VideoDetailComponent } from './video-detail/video-detail.component';
+//video player
+import { VgCoreModule } from 'videogular2/core';
+import { VgControlsModule } from 'videogular2/controls';
+import { VgOverlayPlayModule } from 'videogular2/overlay-play';
+import { VgBufferingModule } from 'videogular2/buffering';
+import { SingleMediaPlayerComponent } from './single-media-player/single-media-player.component';
+import { RelatedVideoComponentComponent } from './related-video-component/related-video-component.component';
 
 const SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -38,8 +46,12 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     MaterialModule,
     LayoutModule,
     SharedModule,
-    SwiperModule.forRoot(SWIPER_CONFIG)
+    SwiperModule.forRoot(SWIPER_CONFIG),
+    VgCoreModule,
+    VgControlsModule,
+    VgOverlayPlayModule,
+    VgBufferingModule
   ],
-  declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, ArrowLeftComponent, ArrowRightComponent, HorizontalBarComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent]
+  declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, ArrowLeftComponent, ArrowRightComponent, HorizontalBarComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent, VideoDetailComponent, SingleMediaPlayerComponent, RelatedVideoComponentComponent]
 })
 export class HomeModule { }

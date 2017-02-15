@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { LatestBar } from '../../latest-bar.enum';
 
 @Component({
@@ -11,12 +12,7 @@ export class CardComponent implements OnInit {
   @Input() isVideos : boolean;
   @Input() videoCard : any;
   latestBar = LatestBar;
-  tiles = [
-    { text: 'One', cols: 3, rows: 1, color: 'lightblue' },
-    { text: 'Two', cols: 1, rows: 2, color: 'lightgreen' },
-    { text: 'Three', cols: 1, rows: 1, color: 'lightpink' },
-    { text: 'Four', cols: 2, rows: 1, color: '#DDBDF1' },
-  ];
+  
   videosButtonBar: any = [
     { icon: 'thumb_up', name: 'thumb_up', id: this.latestBar.thumb_up },
     { icon: 'remove_red_eye', name: 'watch', id: this.latestBar.remove_red_eye },
@@ -32,7 +28,7 @@ export class CardComponent implements OnInit {
 
    
    
-  constructor() {
+  constructor(private router : Router) {
   }
 
   ngOnInit() {
@@ -55,7 +51,9 @@ export class CardComponent implements OnInit {
         console.log('home clicked');
         break;  
     }
-
+  }
+  getDetail(videoId:number){
+    this.router.navigate(['videos/'+videoId]);
   }
 
 }
