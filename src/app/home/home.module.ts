@@ -19,6 +19,15 @@ import { CardFooterComponent } from './card-footer/card-footer.component';
 import { SwiperModule, SwiperConfigInterface } from 'angular2-swiper-wrapper';
 import { SwiperComponent } from './swiper/swiper.component';
 
+const SWIPER_CONFIG: SwiperConfigInterface = {
+  direction: 'horizontal',
+  // slidesPerView: 'auto',
+  keyboardControl: true,
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+  slidesPerView: 4,
+  spaceBetween: 30
+};
 
 @NgModule({
   imports: [
@@ -29,7 +38,7 @@ import { SwiperComponent } from './swiper/swiper.component';
     MaterialModule,
     LayoutModule,
     SharedModule,
-    SwiperModule
+    SwiperModule.forRoot(SWIPER_CONFIG)
   ],
   declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, ArrowLeftComponent, ArrowRightComponent, HorizontalBarComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent]
 })

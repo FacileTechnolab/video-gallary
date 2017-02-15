@@ -1,5 +1,5 @@
-<swiper [config]="config" (indexChange)="onIndexChange($event)" (reachEnd)="onReachEnd($event)">
-  <div *ngFor="let videoSlide of videos" class="swiper-slide">
+<swiper (indexChange)="onIndexChange($event)" (reachEnd)="onReachEnd($event)">
+  <div *ngFor="let videoSlide of videoCards" class="swiper-slide">
     <app-card [videoCard]="videoSlide"></app-card>
   </div>
 </swiper>

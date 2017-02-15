@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { SwiperComponent } from '../swiper/swiper.component';
 @Component({
   selector: 'app-popular-videos-list',
   templateUrl: './popular-videos-list.component.html',
@@ -11,9 +11,9 @@ export class PopularVideosListComponent implements OnInit {
   videosList: any = [];
   collectionsList: any = [];
   constructor() { }
-
+  
   ngOnInit() {
-    this.getData();
+    this.getLatestVideos();
   }
   getData() {
     if (this.selectedIndex == 1) {
@@ -21,6 +21,7 @@ export class PopularVideosListComponent implements OnInit {
     }
     else {
       this.getLatestCollections();
+
     }
   }
   private getLatestVideos() {

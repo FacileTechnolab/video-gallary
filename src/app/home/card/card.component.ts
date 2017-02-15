@@ -23,7 +23,7 @@ export class CardComponent implements OnInit {
     { icon: 'message', name: 'comment', id: this.latestBar.message },
     { icon: 'home', name: 'share', id: this.latestBar.home }];
 
-// <i class="material-icons">videocam</i>
+
  collectionsButtonBar: any = [
     { icon: 'videocam', name: 'videocam', id: this.latestBar.videocam },
     { icon: 'thumb_up', name: 'watch', id: this.latestBar.thumb_up },
@@ -36,7 +36,8 @@ export class CardComponent implements OnInit {
   }
 
   ngOnInit() {
-      console.log(this.videoCard);
+    console.log('card');
+      //console.log(this.videoCard);
   }
   change(button, id) {
     console.log(button);

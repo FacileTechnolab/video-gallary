@@ -1,31 +1,31 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-swiper',
   templateUrl: './swiper.component.html',
   styleUrls: ['./swiper.component.css']
 })
-export class SwiperComponent implements OnInit {
+export class SwiperComponent implements OnInit, OnChanges {
   @Input() videos: any;
-  @Input() slidesPerPage : number;
-  config: Object = {
-    //pagination: '.swiper-pagination', //remove pagination
-    paginationClickable: true,
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-    slidesPerView: 4,
-    spaceBetween: 30
-  };
+  @Input() slidesPerPage: number;
   
-  
-  constructor() { }
+  videoCards : any = [];
 
   ngOnInit() {
-    console.log('swiper');
-    console.log(this.videos);
+      console.log('nginit');
+      this.videoCards = this.videos;
   }
-   onIndexChange(index: number) {
-     
+  ngOnChanges(changes: SimpleChanges) {
+    console.log('OnChanges');
+    if(changes['videos']){
+      console.log('video changes');
+       this.videoCards  = this.videos; 
+    }
+  }
+  constructor() {
+    
+  }
+  onIndexChange(index: number) {
     console.log('Swiper index: ' + index);
   }
   onReachEnd(event: any) {
