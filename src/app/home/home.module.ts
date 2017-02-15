@@ -26,6 +26,9 @@ import { VgOverlayPlayModule } from 'videogular2/overlay-play';
 import { VgBufferingModule } from 'videogular2/buffering';
 import { SingleMediaPlayerComponent } from './single-media-player/single-media-player.component';
 import { RelatedVideoComponentComponent } from './related-video-component/related-video-component.component';
+import { SearchVideoComponentComponent } from './search-video-component/search-video-component.component';
+import { VideoGridComponentComponent } from './video-grid-component/video-grid-component.component';
+import { CollectionComponent } from './collection/collection.component';
 
 const SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -52,6 +55,6 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     VgOverlayPlayModule,
     VgBufferingModule
   ],
-  declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, ArrowLeftComponent, ArrowRightComponent, HorizontalBarComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent, VideoDetailComponent, SingleMediaPlayerComponent, RelatedVideoComponentComponent]
+  declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, ArrowLeftComponent, ArrowRightComponent, HorizontalBarComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent, VideoDetailComponent, SingleMediaPlayerComponent, RelatedVideoComponentComponent, SearchVideoComponentComponent, VideoGridComponentComponent, CollectionComponent]
 })
 export class HomeModule { }

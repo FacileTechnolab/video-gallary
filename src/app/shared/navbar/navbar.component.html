@@ -5,8 +5,9 @@
      <md-icon>home</md-icon>
     </button> Video Gallary-->
   <div class="search-box">
-    <input type="text" placeholder="Search" class="search-box-textbox"/>
-<md-icon>search</md-icon>
+    <input type="text" placeholder="Search" class="search-box-textbox" [(ngModel)]="searchString"/>
+<!--<md-icon (click)="searchVideos()" style="cursor: pointer">search</md-icon>-->
+<i class="material-icons" (click)="searchVideos()" style="cursor: pointer">search</i>
 </div>
 <span class="app-toolbar-filler"></span>
 <md-icon>account_circle

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 //routing
 import { RouterModule } from '@angular/router';
 //slim loader
@@ -13,7 +14,9 @@ import { MaterialModule } from '@angular/material';
   imports: [
     CommonModule,
     RouterModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   declarations: [NavbarComponent],
   exports: [NavbarComponent],

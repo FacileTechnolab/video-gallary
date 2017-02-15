@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+<md-tab-group [(selectedIndex)]="selectedIndex" (selectChange)="tabChange()">
+  <md-tab label="Videos(15)">
+    <app-video-grid-component [videos]="videosList" [itemPerColumn]="4"></app-video-grid-component>
+    <a md-raised-button routerLink="." color="primary" style="width:100%;margin-top:20px" (click)="loadMoreVideos()">Load More</a>
+  </md-tab>
+  <md-tab label="collections(5)">
+    <app-video-grid-component [videos]="collectionsList" [itemPerColumn]="4"></app-video-grid-component>
+    <a md-raised-button routerLink="." color="primary" style="width:100%;margin-top:20px" (click)="loadMoreColections()">Load More</a>
+  </md-tab>
+</md-tab-group>

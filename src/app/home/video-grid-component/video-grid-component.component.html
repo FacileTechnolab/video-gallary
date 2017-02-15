@@ -1,0 +1,6 @@
+<md-grid-list cols="{{itemPerColumn}}" rowHeight="420px">
+  <md-grid-tile *ngFor="let video of videos">
+    <app-card [videoCard]="video"></app-card>
+  </md-grid-tile>
+</md-grid-list>
+

@@ -20,6 +20,13 @@ export class VideoDetailComponent implements OnInit {
 
   ngOnInit() {
     this.getRelatedVideos();
+    // this.route.params
+    //   .map(params => params['id'])
+    //   .subscribe((id) => {
+    //     this.contactsService
+    //       .getContact(id)
+    //       .subscribe(contact => this.contact = contact);
+    //   });
   }
   private getRelatedVideos() {
     return this.relatedVideosList = [
