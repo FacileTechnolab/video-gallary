@@ -11,6 +11,7 @@ import { AccountRoutingModule } from './account.routes';
 import { MaterialModule } from '@angular/material';
 //constants
 import { RegularExpr } from '../constants/app.constants';
+import { AppIconComponent } from '../components/app-icon/app-icon.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,7 @@ import { RegularExpr } from '../constants/app.constants';
     AccountRoutingModule,
     MaterialModule
   ],
-  declarations: [AccountComponent, LoginComponent, RegisterComponent, ForgotPasswordComponent],
+  declarations: [AccountComponent, LoginComponent, RegisterComponent, ForgotPasswordComponent, AppIconComponent],
   providers: [RegularExpr]
 })
 export class AccountModule { }

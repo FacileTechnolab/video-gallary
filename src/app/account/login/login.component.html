@@ -1,29 +1,29 @@
 <div class="form-login">
-  <img src="assets/image/appicon.png" alt="app-icon" class="app-icon">
-<md-card>
-  <md-card-title>
-    <md-toolbar color="primary">
-      <span>Login</span>
-    </md-toolbar>
-  </md-card-title>
-  <md-card-content>
-    <form name="login-form" #f="ngForm" (ngSubmit)="doLogin()" novalidate>
-      <md-input-container>
-        <input md-input placeholder="User Name" type="email" id="username" name="username" [(ngModel)]="user.username" required>
-      </md-input-container>
-      <md-input-container>
-        <input md-input placeholder="Password" type="password" id="password" name="password" [(ngModel)]="user.password" required>
-      </md-input-container>
-      <div class="social-button-row">
-        <md-icon svgIcon="facebook"></md-icon>
-        <md-icon svgIcon="google-plus"></md-icon>
-      </div>
-    <div class="padding">
-      <button md-raised-button color="primary" type="submit" [disabled]="!f.form.valid" >Login</button>
-      <a md-button routerLink="/account/register" color="primary">Create an account</a>
-      <a md-button routerLink="/account/forgotPassword"  color="primary">Forgot password?</a>
-    </div>
-  </form>
-</md-card-content>
-</md-card>
+  <app-app-icon></app-app-icon>
+  <md-card>
+    <md-card-title>
+      <md-toolbar color="primary">
+        <span>Login</span>
+      </md-toolbar>
+    </md-card-title>
+    <md-card-content>
+      <form name="login-form" #f="ngForm" (ngSubmit)="doLogin()" novalidate>
+        <md-input-container>
+          <input md-input placeholder="User Name" type="email" id="username" name="username" [(ngModel)]="user.username" required>
+        </md-input-container>
+        <md-input-container>
+          <input md-input placeholder="Password" type="password" id="password" name="password" [(ngModel)]="user.password" required>
+        </md-input-container>
+        <div class="social-button-row">
+          <md-icon svgIcon="facebook"></md-icon>
+          <md-icon svgIcon="google-plus"></md-icon>
+        </div>
+        <div class="padding">
+          <button md-raised-button color="primary" type="submit" [disabled]="!f.form.valid">Login</button>
+          <a md-button routerLink="/account/register" color="primary">Create an account</a>
+          <a md-button routerLink="/account/forgotPassword" color="primary">Forgot password?</a>
+        </div>
+      </form>
+    </md-card-content>
+  </md-card>
 </div>

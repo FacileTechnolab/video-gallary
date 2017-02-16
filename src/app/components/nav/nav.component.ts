@@ -2,17 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: 'app-nav',
+  templateUrl: './nav.component.html',
+  styleUrls: ['./nav.component.css']
 })
-export class NavbarComponent implements OnInit {
+export class NavComponent implements OnInit {
   searchString: string = '';
   constructor(private router: Router) { }
 
   ngOnInit() {
   }
   searchVideos() {
-    this.router.navigate(['videos/search/' + this.searchString]);
+    this.router.navigate(['home/videos/search/' + this.searchString]);
   }
 }

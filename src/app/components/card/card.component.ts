@@ -53,7 +53,7 @@ export class CardComponent implements OnInit {
     }
   }
   getDetail(videoId:number){
-    this.router.navigate(['videos/'+videoId]);
+    this.router.navigate(['home/videos/'+videoId]);
   }
 
 }

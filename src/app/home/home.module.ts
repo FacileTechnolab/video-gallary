@@ -5,19 +5,16 @@ import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home.routes';
 import { SharedModule } from '../shared/shared.module';
 import { VideoGallaryHeaderComponent } from './video-gallary-header/video-gallary-header.component';
-import { CardComponent } from './card/card.component';
+import { CardComponent } from '../components/card/card.component';
 //material
 import { MaterialModule } from '@angular/material';
-import { ArrowLeftComponent } from './arrow-left/arrow-left.component';
-import { ArrowRightComponent } from './arrow-right/arrow-right.component';
-import { HorizontalBarComponent } from './horizontal-bar/horizontal-bar.component';
 import { PopularVideosListComponent } from './popular-videos-list/popular-videos-list.component';
 import { LatestVideosListComponent } from './latest-videos-list/latest-videos-list.component';
 //layout
 import { LayoutModule } from 'ng2-flex-layout';
-import { CardFooterComponent } from './card-footer/card-footer.component';
+import { CardFooterComponent } from '../components/card-footer/card-footer.component';
 import { SwiperModule, SwiperConfigInterface } from 'angular2-swiper-wrapper';
-import { SwiperComponent } from './swiper/swiper.component';
+import { SwiperComponent } from '../components/swiper/swiper.component';
 import { VideoDetailComponent } from './video-detail/video-detail.component';
 //video player
 import { VgCoreModule } from 'videogular2/core';
@@ -27,8 +24,11 @@ import { VgBufferingModule } from 'videogular2/buffering';
 import { SingleMediaPlayerComponent } from './single-media-player/single-media-player.component';
 import { RelatedVideoComponentComponent } from './related-video-component/related-video-component.component';
 import { SearchVideoComponentComponent } from './search-video-component/search-video-component.component';
-import { VideoGridComponentComponent } from './video-grid-component/video-grid-component.component';
+import { VideoGridComponentComponent } from '../components/video-grid-component/video-grid-component.component';
 import { CollectionComponent } from './collection/collection.component';
+import { VideosComponent } from './videos/videos.component';
+import { NavComponent } from '../components/nav/nav.component';
+import { HorizontalBarComponent } from '../components/horizontal-bar/horizontal-bar.component';
 
 const SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -55,6 +55,6 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     VgOverlayPlayModule,
     VgBufferingModule
   ],
-  declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, ArrowLeftComponent, ArrowRightComponent, HorizontalBarComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent, VideoDetailComponent, SingleMediaPlayerComponent, RelatedVideoComponentComponent, SearchVideoComponentComponent, VideoGridComponentComponent, CollectionComponent]
+  declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent, VideoDetailComponent, SingleMediaPlayerComponent, RelatedVideoComponentComponent, SearchVideoComponentComponent, VideoGridComponentComponent, CollectionComponent, VideosComponent, NavComponent, HorizontalBarComponent]
 })
 export class HomeModule { }

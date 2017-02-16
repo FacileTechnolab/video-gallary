@@ -13,12 +13,12 @@ import { AdminModule } from './admin/admin.module';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { NgProgressModule } from 'ng2-progressbar';
-
-
+import { PageNotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

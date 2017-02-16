@@ -5,12 +5,7 @@
 body {
   margin: 0;
 }
-.app-icon{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-}
+
 .swiper-container {
     /*height: 300px !important;*/
     margin: 20px auto;
