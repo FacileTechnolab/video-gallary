@@ -4,7 +4,8 @@ import { LatestBar } from '../../latest-bar.enum';
 @Component({
   selector: 'app-video-detail',
   templateUrl: './video-detail.component.html',
-  styleUrls: ['./video-detail.component.css']
+ styleUrls: ['./video-detail.component.css']
+  //styleUrls: ["../node_modules/videogular2/fonts/videogular.css", "styles.css"],
 })
 export class VideoDetailComponent implements OnInit {
   relatedVideosList: any = [];
@@ -16,7 +17,24 @@ export class VideoDetailComponent implements OnInit {
     { icon: 'message', name: 'comment', id: this.latestBar.message },
     { icon: 'home', name: 'share', id: this.latestBar.home }];
   id = 1;
-  constructor() { }
+  sources: Array<Object>;
+  constructor() {
+    this.sources = [
+      {
+        src: "http://static.videogular.com/assets/videos/videogular.mp4",
+        type: "video/mp4"
+      },
+      {
+        src: "http://static.videogular.com/assets/videos/videogular.ogg",
+        type: "video/ogg"
+      },
+      {
+        src: "http://static.videogular.com/assets/videos/videogular.webm",
+        type: "video/webm"
+      }
+    ];
+  }
+
 
   ngOnInit() {
     this.getRelatedVideos();

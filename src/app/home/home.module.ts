@@ -21,7 +21,8 @@ import { VgCoreModule } from 'videogular2/core';
 import { VgControlsModule } from 'videogular2/controls';
 import { VgOverlayPlayModule } from 'videogular2/overlay-play';
 import { VgBufferingModule } from 'videogular2/buffering';
-import { SingleMediaPlayerComponent } from './single-media-player/single-media-player.component';
+//components
+import { SingleMediaPlayerComponent } from '../components/single-media-player/single-media-player.component';
 import { RelatedVideoComponentComponent } from './related-video-component/related-video-component.component';
 import { SearchVideoComponentComponent } from './search-video-component/search-video-component.component';
 import { VideoGridComponentComponent } from '../components/video-grid-component/video-grid-component.component';
@@ -30,13 +31,13 @@ import { VideosComponent } from './videos/videos.component';
 import { NavComponent } from '../components/nav/nav.component';
 import { HorizontalBarComponent } from '../components/horizontal-bar/horizontal-bar.component';
 
+
 const SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
-  // slidesPerView: 'auto',
   keyboardControl: true,
   nextButton: '.swiper-button-next',
   prevButton: '.swiper-button-prev',
-  slidesPerView: 4,
+  slidesPerView: 3,
   spaceBetween: 30
 };
 
@@ -49,11 +50,11 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     MaterialModule,
     LayoutModule,
     SharedModule,
-    SwiperModule.forRoot(SWIPER_CONFIG),
     VgCoreModule,
     VgControlsModule,
     VgOverlayPlayModule,
-    VgBufferingModule
+    VgBufferingModule,
+    SwiperModule.forRoot(SWIPER_CONFIG)
   ],
   declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent, VideoDetailComponent, SingleMediaPlayerComponent, RelatedVideoComponentComponent, SearchVideoComponentComponent, VideoGridComponentComponent, CollectionComponent, VideosComponent, NavComponent, HorizontalBarComponent]
 })

@@ -5,25 +5,25 @@ import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/cor
   templateUrl: './swiper.component.html',
   styleUrls: ['./swiper.component.css']
 })
-export class SwiperComponent implements OnInit, OnChanges {
+export class SwiperComponent implements OnInit {
   @Input() videos: any;
   @Input() slidesPerPage: number;
   
-  videoCards : any = [];
+  videoCards: any = [];
 
   ngOnInit() {
-      console.log('nginit');
-      this.videoCards = this.videos;
+    console.log('nginit');
+    this.videoCards = this.videos;
   }
   ngOnChanges(changes: SimpleChanges) {
     console.log('OnChanges');
-    if(changes['videos']){
+    if (changes['videos']) {
       console.log('video changes');
-       this.videoCards  = this.videos; 
+      this.videoCards = this.videos;
     }
   }
   constructor() {
-    
+
   }
   onIndexChange(index: number) {
     console.log('Swiper index: ' + index);
