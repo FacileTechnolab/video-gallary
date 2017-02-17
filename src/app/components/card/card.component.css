@@ -10,3 +10,7 @@
   background-image: url('http://placehold.it/150x150');
   background-size: cover;
 }
+ md-grid-tile figure {
+     align-items: flex-start!important;
+     flex-wrap: wrap;
+   }

@@ -1,14 +1,17 @@
-<md-card style="width:200px" (click)="getDetail(videoCard.id)">
-      <img md-card-image src="http://placehold.it/150x150" >
-      <md-card-content>
-        <p>
-          Two link long title that is video title
-        </p>
-        <p>
-          <i class="material-icons">timer</i> {{videoCard.lastseen}}
-        </p>
-      </md-card-content>
-      <md-card-actions>
-       <app-card-footer [buttons]="videosButtonBar" [videoId]="videoCard.id"></app-card-footer>
-      </md-card-actions>
-    </md-card>
+<md-card style="width:300px" (click)="getDetail(videoCard.id)">
+<img md-card-image src="http://placehold.it/150x150">
+<md-card-content>
+  <p>
+    Two link long title that is video title
+  </p>
+  <div>
+    <h4>
+      <i class="material-icons" style="float: left">timer</i>
+      <span>{{videoCard.lastseen}}</span>
+      </h4>
+    </div>
+</md-card-content>
+<md-card-actions>
+  <app-card-footer [buttons]="videosButtonBar" [videoId]="videoCard.id"></app-card-footer>
+</md-card-actions>
+</md-card>

@@ -31,7 +31,6 @@ import { VideosComponent } from './videos/videos.component';
 import { NavComponent } from '../components/nav/nav.component';
 import { HorizontalBarComponent } from '../components/horizontal-bar/horizontal-bar.component';
 
-
 const SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
   keyboardControl: true,

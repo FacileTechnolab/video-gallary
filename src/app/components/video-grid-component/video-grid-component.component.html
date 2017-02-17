@@ -1,6 +1,20 @@
-<md-grid-list cols="{{itemPerColumn}}" rowHeight="420px">
+<md-grid-list cols="{{itemPerColumn}}" rowHeight="530px" gutterSize="20px">
   <md-grid-tile *ngFor="let video of videos">
-    <app-card [videoCard]="video"></app-card>
+    <div>
+      <app-card [videoCard]="video"></app-card>
+    </div>
   </md-grid-tile>
 </md-grid-list>
-
+<!-- using flax -->
+<!--<div layout="row"  layoutXs="column">
+  <md-card style="width: 300px;" *ngFor="let video of videos"  >
+<img src="http://placehold.it/150x150" class="md-card-image" alt="user avatar">
+<md-card-content>
+  <h2>{{user}}</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</md-card-content>
+<div class="md-actions" layout="row" layout-align="end center">
+ 
+</div>
+</md-card>
+</div>-->

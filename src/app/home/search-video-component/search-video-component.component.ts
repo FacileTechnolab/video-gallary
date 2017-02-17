@@ -11,6 +11,7 @@ export class SearchVideoComponentComponent implements OnInit {
   searchString: string = '';
   videosList: any = [];
   collectionsList: any = [];
+  cards : any =  ["slide1","slide2"];
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
