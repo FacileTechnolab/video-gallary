@@ -1,7 +1,7 @@
 /*.video-card{
     width: 200px;
 }*/
-.example-card {
+/*.example-card {
   width: 200px;
   height: 400px;
 }
@@ -13,4 +13,44 @@
  md-grid-tile figure {
      align-items: flex-start!important;
      flex-wrap: wrap;
-   }
+   }*/
+
+   .example-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-demo md-card,
+.card-demo md-card-content {
+  margin-bottom: 24px;
+}
+
+.card-demo md-card-footer {
+  left: 24px;
+  margin-bottom: 24px;
+}
+
+.containerX {
+  border: solid 1px #b6b6b6;
+  box-sizing: content-box !important;
+}
+
+.hint {
+   color: #a3a3a3;
+   font-size:0.9em;
+   margin:5px;
+   margin-bottom:0;
+}
+
+.forceAbove {
+  margin-top: -275px;
+}
+
+.large {
+  height:200px;
+}
+
+.large div.one, .large div.two {
+  color:white;
+}

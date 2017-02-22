@@ -1,4 +1,4 @@
-<md-card style="width:300px" (click)="getDetail(videoCard.id)">
+<!--<md-card style="width:300px" (click)="getDetail(videoCard.id)">
 <img md-card-image src="http://placehold.it/150x150">
 <md-card-content>
   <p>
@@ -11,6 +11,24 @@
       </h4>
     </div>
 </md-card-content>
+<md-card-actions>
+  <app-card-footer [buttons]="videosButtonBar" [videoId]="videoCard.id"></app-card-footer>
+</md-card-actions>
+</md-card>-->
+
+<md-card class="example-card">
+  <img md-card-image src="http://placehold.it/150x150" (click)="getDetail(videoCard.id)">
+  <md-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
+      very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+    </p>
+    <div layout="row">
+      <div><i class="material-icons">timer</i></div>
+      <div style="margin-top: 5px">4 hours</div>
+</div>
+</md-card-content>
+<hr/>
 <md-card-actions>
   <app-card-footer [buttons]="videosButtonBar" [videoId]="videoCard.id"></app-card-footer>
 </md-card-actions>

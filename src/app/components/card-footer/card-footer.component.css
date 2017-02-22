@@ -1,0 +1,25 @@
+.material-icons.mdl-badge[data-badge]::after,
+.material-label.mdl-badge[data-badge]::after{
+  font-size: .3em;
+  width: 12em;
+  height: 12em;
+}
+
+.material-icons.mdl-badge[data-badge]::after {
+  top: -1em;
+  right: -1em;
+}
+
+.material-icons.icon,
+.material-label {
+  font-size: 3em;
+  line-height: 1;
+  display: block;
+  color: #424242;
+  margin: .5em 0
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

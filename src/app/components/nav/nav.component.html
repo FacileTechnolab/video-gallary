@@ -1,15 +1,10 @@
 <md-toolbar color="primary">
   <md-icon>home</md-icon>
-  <span> Video Gallary</span>
-  <!--<button class="app-icon-button">
-     <md-icon>home</md-icon>
-    </button> Video Gallary-->
+  <a md-button routerLink="/home/videos">Video Gallary</a>
   <div class="search-box">
     <input type="text" placeholder="Search" class="search-box-textbox" [(ngModel)]="searchString" />
-    <!--<md-icon (click)="searchVideos()" style="cursor: pointer">search</md-icon>-->
-    <i class="material-icons" (click)="searchVideos()" style="cursor: pointer">search</i>
+    <button md-button (click)="searchVideos()"><i class="material-icons">search</i></button>
 </div>
-<span class="app-toolbar-filler"></span>
 <md-icon>account_circle
 </md-icon>
 <button md-button [mdMenuTriggerFor]="menu" align="end">Hello Member!</button>

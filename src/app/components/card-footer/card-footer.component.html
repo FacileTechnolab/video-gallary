@@ -1,6 +1,14 @@
-<md-button-toggle-group>
+<!--<md-button-toggle-group>
   <md-button-toggle *ngFor="let button of buttons" [value]="videoId" (change)="change(videoId,button.id)">
     <i class="material-icons">{{button.icon}}</i>
-    <!--<button md-mini-fab style="width:20px;height: 20px;bottom:18px;left:-10px"><i class="material-icons" style="font-size: 12px;text-align: center">check</i></button>-->
     <button md-mini-fab style="width:20px;height: 22px;bottom:15px;left:-10px;">1</button>
-  </md-button-toggle>
+  </md-button-toggle>-->
+<div class="flex-container" fxLayout="row" fxLayoutAlign="center center" fxLayoutAlign.xs="start">
+  <div class="flex-item" flex="20" *ngFor="let button of buttons">
+    <md-icon (click)="change(videoId,button.id)">{{button.icon}}
+    </md-icon>
+     <md-chip color="accent" selected="true">1</md-chip>
+    
+    <!--<button md-mini-fab style="width:20px;height: 22px;bottom:15px;left:-10px;">1</button>-->
+</div>
+</div>

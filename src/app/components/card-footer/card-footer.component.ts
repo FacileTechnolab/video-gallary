@@ -25,8 +25,8 @@ export class CardFooterComponent implements OnInit {
         case this.latestBar.message :
         console.log('message clicked');
         break;
-        case this.latestBar.home :
-        console.log('home clicked');
+        case this.latestBar.share :
+        console.log('share clicked');
         break;  
     }
   }

@@ -3,5 +3,6 @@ export enum LatestBar {
     remove_red_eye = 2,
     message = 3,
     home = 4,
-    videocam = 5
+    videocam = 5,
+    share = 6
 }

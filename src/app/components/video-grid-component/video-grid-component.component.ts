@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class VideoGridComponentComponent implements OnInit {
   @Input() videos: any = [];
-  @Input() itemPerColumn : number;
+  @Input() itemPerColumn: number;
+  users: any = ['Fabio', 'Leonardo', 'Thomas', 'Gabriele', 'Fabrizio', 'John', 'Luis', 'Kate', 'Max']
   constructor() { }
 
   ngOnInit() {

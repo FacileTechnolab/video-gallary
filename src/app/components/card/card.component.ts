@@ -17,14 +17,14 @@ export class CardComponent implements OnInit {
     { icon: 'thumb_up', name: 'thumb_up', id: this.latestBar.thumb_up },
     { icon: 'remove_red_eye', name: 'watch', id: this.latestBar.remove_red_eye },
     { icon: 'message', name: 'comment', id: this.latestBar.message },
-    { icon: 'home', name: 'share', id: this.latestBar.home }];
+    { icon: 'share', name: 'share', id: this.latestBar.share }];
 
 
  collectionsButtonBar: any = [
     { icon: 'videocam', name: 'videocam', id: this.latestBar.videocam },
     { icon: 'thumb_up', name: 'watch', id: this.latestBar.thumb_up },
     { icon: 'message', name: 'comment', id: this.latestBar.message },
-    { icon: 'home', name: 'share', id: this.latestBar.home }];
+    { icon: 'share', name: 'share', id: this.latestBar.share }];
 
    
    

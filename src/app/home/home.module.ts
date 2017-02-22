@@ -12,6 +12,7 @@ import { PopularVideosListComponent } from './popular-videos-list/popular-videos
 import { LatestVideosListComponent } from './latest-videos-list/latest-videos-list.component';
 //layout
 import { LayoutModule } from 'ng2-flex-layout';
+import {FlexLayoutModule} from "@angular/flex-layout";
 import { CardFooterComponent } from '../components/card-footer/card-footer.component';
 import { SwiperModule, SwiperConfigInterface } from 'angular2-swiper-wrapper';
 import { SwiperComponent } from '../components/swiper/swiper.component';
@@ -53,7 +54,8 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     VgControlsModule,
     VgOverlayPlayModule,
     VgBufferingModule,
-    SwiperModule.forRoot(SWIPER_CONFIG)
+    SwiperModule.forRoot(SWIPER_CONFIG),
+    FlexLayoutModule
   ],
   declarations: [HomeComponent, VideoGallaryHeaderComponent, CardComponent, PopularVideosListComponent, LatestVideosListComponent, CardFooterComponent, SwiperComponent, VideoDetailComponent, SingleMediaPlayerComponent, RelatedVideoComponentComponent, SearchVideoComponentComponent, VideoGridComponentComponent, CollectionComponent, VideosComponent, NavComponent, HorizontalBarComponent]
 })
