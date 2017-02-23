@@ -17,15 +17,16 @@
 </md-card>-->
 
 <md-card class="example-card">
-  <img md-card-image src="http://placehold.it/150x150" (click)="getDetail(videoCard.id)">
+  <!--<img md-card-image src="http://placehold.it/150x150" (click)="getDetail(videoCard.id)">-->
+  <img md-card-image src="{{videoCard.image}}" (click)="getDetail(videoCard.id)">
   <md-card-content>
     <p>
-      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
-      very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+      <!--{{videoCard.description}}-->
+      Biographical sports drama on former wrestler Mahavir Singh Phogat and his two wrestler daughters' struggle towards glory at the Commonwealth Games in the face of societal oppression.
     </p>
     <div layout="row">
       <div><i class="material-icons">timer</i></div>
-      <div style="margin-top: 5px">4 hours</div>
+      <div style="margin-top: 5px">{{videoCard.lastSeen}} hours ago</div>
 </div>
 </md-card-content>
 <hr/>

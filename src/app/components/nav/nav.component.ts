@@ -13,6 +13,8 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
   searchVideos() {
-    this.router.navigate(['home/videos/search/' + this.searchString]);
+    if (this.searchString) {
+      this.router.navigate(['home/videos/search/' + this.searchString]);
+    }
   }
 }

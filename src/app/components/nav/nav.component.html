@@ -1,9 +1,9 @@
 <md-toolbar color="primary">
-  <md-icon>home</md-icon>
+  <md-icon routerLink="/home/videos" style="cursor: pointer">home</md-icon>
   <a md-button routerLink="/home/videos">Video Gallary</a>
   <div class="search-box">
     <input type="text" placeholder="Search" class="search-box-textbox" [(ngModel)]="searchString" />
-    <button md-button (click)="searchVideos()"><i class="material-icons">search</i></button>
+    <button md-button (click)="searchVideos()" [disabled]="!searchString"><i class="material-icons">search</i></button>
 </div>
 <md-icon>account_circle
 </md-icon>

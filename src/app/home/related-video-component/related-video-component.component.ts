@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Video } from '../videos/video';
 
 @Component({
   selector: 'app-related-video-component',
@@ -6,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./related-video-component.component.css']
 })
 export class RelatedVideoComponentComponent implements OnInit {
-  @Input() relatedVideos : any;
+  @Input() relatedVideos :  Video[];
   constructor() { }
 
   ngOnInit() {

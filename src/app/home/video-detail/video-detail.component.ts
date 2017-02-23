@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { LatestBar } from '../../latest-bar.enum';
+import { ButtonBar } from '../../button-bar.enum';
+import { ActivatedRoute } from '@angular/router';
+import { Video } from '../videos/video';
 
 @Component({
   selector: 'app-video-detail',
@@ -7,21 +9,24 @@ import { LatestBar } from '../../latest-bar.enum';
   styleUrls: ['./video-detail.component.css']
 })
 export class VideoDetailComponent implements OnInit {
-  relatedVideosList: any = [];
+  relatedVideos: Video[];
   videoDetail: Object;
-  latestBar = LatestBar;
+  buttonBar = ButtonBar;
   videosButtonBar: any = [
-    { icon: 'thumb_up', name: 'thumb_up', id: this.latestBar.thumb_up },
-    { icon: 'remove_red_eye', name: 'watch', id: this.latestBar.remove_red_eye },
-    { icon: 'message', name: 'comment', id: this.latestBar.message },
-    { icon: 'share', name: 'share', id: this.latestBar.share }];
+    { icon: 'thumb_up', name: 'thumb_up', id: this.buttonBar.thumb_up },
+    { icon: 'remove_red_eye', name: 'watch', id: this.buttonBar.remove_red_eye },
+    { icon: 'message', name: 'comment', id: this.buttonBar.message },
+    { icon: 'share', name: 'share', id: this.buttonBar.share }];
   id = 1;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
 
   ngOnInit() {
+    console.log(this.route.params['id']);
+    //this.getVideoDetail();
     this.getRelatedVideos();
+
     // this.route.params
     //   .map(params => params['id'])
     //   .subscribe((id) => {
@@ -31,16 +36,15 @@ export class VideoDetailComponent implements OnInit {
     //   });
   }
   private getRelatedVideos() {
-    return this.relatedVideosList = [
-      { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '1 hours', type: 'latest' },
-      { id: 2, videoImage: 'assets/image/appicon.png', lastseen: '2 hours', type: 'latest' },
-      { id: 3, videoImage: 'assets/image/appicon.png', lastseen: '3 hours', type: 'latest' },
-      { id: 4, videoImage: 'assets/image/appicon.png', lastseen: '4 hours', type: 'latest' },
-      { id: 5, videoImage: 'assets/image/appicon.png', lastseen: '5 hours', type: 'latest' },
-      { id: 6, videoImage: 'assets/image/appicon.png', lastseen: '6 hours', type: 'latest' },
-      { id: 7, videoImage: 'assets/image/appicon.png', lastseen: '7 hours', type: 'latest' },
-      { id: 8, videoImage: 'assets/image/appicon.png', lastseen: '8 hours', type: 'latest' }];
+    return this.relatedVideos = [
+      { id: 1, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 2, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 3, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 4, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 6, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 5, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' }
+    ];
   }
+
   private getVideoDetail(id: number) {
   }
 

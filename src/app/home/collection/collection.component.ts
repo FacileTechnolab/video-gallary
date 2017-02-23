@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LatestBar } from '../../latest-bar.enum';
+import { ButtonBar } from '../../button-bar.enum';
 
 @Component({
   selector: 'app-collection',
@@ -8,11 +8,11 @@ import { LatestBar } from '../../latest-bar.enum';
 })
 export class CollectionComponent implements OnInit {
   collections: any = [];
-  latestBar = LatestBar;
+  buttonBar = ButtonBar;
   buttons: any = [
-    { icon: 'thumb_up', name: 'thumb_up', id: this.latestBar.thumb_up },
-    { icon: 'message', name: 'comment', id: this.latestBar.message },
-    { icon: 'home', name: 'share', id: this.latestBar.home }];
+    { icon: 'thumb_up', name: 'thumb_up', id: this.buttonBar.thumb_up },
+    { icon: 'message', name: 'comment', id: this.buttonBar.message },
+    { icon: 'home', name: 'share', id: this.buttonBar.home }];
 
   constructor() { }
 

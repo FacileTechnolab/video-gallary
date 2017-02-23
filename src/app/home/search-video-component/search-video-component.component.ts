@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Video } from '../videos/video';
 
 @Component({
   selector: 'app-search-video-component',
@@ -9,9 +10,9 @@ import { ActivatedRoute } from '@angular/router';
 export class SearchVideoComponentComponent implements OnInit {
   selectedIndex = 0;
   searchString: string = '';
-  videosList: any = [];
-  collectionsList: any = [];
-  cards : any =  ["slide1","slide2"];
+  videos: Video[];
+  collections: Video[];
+  cards: any = ["slide1", "slide2"];
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
@@ -29,33 +30,30 @@ export class SearchVideoComponentComponent implements OnInit {
     }
   }
   private searchVidoes(searchString: string) {
-    return this.videosList = [
-      { id: 1, videoImage: 'assets/image/appicon.png', lastseen: '1 hours', type: 'latest' },
-      { id: 2, videoImage: 'assets/image/appicon.png', lastseen: '2 hours', type: 'latest' },
-      { id: 3, videoImage: 'assets/image/appicon.png', lastseen: '3 hours', type: 'latest' },
-      { id: 4, videoImage: 'assets/image/appicon.png', lastseen: '4 hours', type: 'latest' },
-      { id: 5, videoImage: 'assets/image/appicon.png', lastseen: '5 hours', type: 'latest' },
-      { id: 6, videoImage: 'assets/image/appicon.png', lastseen: '6 hours', type: 'latest' },
-      { id: 7, videoImage: 'assets/image/appicon.png', lastseen: '7 hours', type: 'latest' },
-      { id: 8, videoImage: 'assets/image/appicon.png', lastseen: '8 hours', type: 'latest' }];
+    return this.videos = [
+      { id: 1, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 2, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 3, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 4, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 6, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 5, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 6, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' }
+    ];
   }
 
   private serchCollections(searchString: string) {
-    return this.collectionsList = [{ id: 1, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-    { id: 2, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-    { id: 3, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-    { id: 4, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-    { id: 5, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-    { id: 6, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' },
-    { id: 7, videoImage: 'assets/image/appicon.png', lastseen: '4 hours' }
+    return this.collections = [
+      { id: 1, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 2, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 3, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
+      { id: 4, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 4, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' }
     ];
   }
   loadMoreVideos() {
-      this.videosList.push(this.videosList[0]);
-      this.videosList.push(this.videosList[1]);
+    this.videos.push(this.videos[0]);
+    this.videos.push(this.videos[1]);
   }
-  loadMoreColections(){
-    this.collectionsList.push(this.collectionsList[0]);
-    this.collectionsList.push(this.collectionsList[1]);
+  loadMoreColections() {
+    this.collections.push(this.collections[0]);
+    this.collections.push(this.collections[1]);
   }
 }

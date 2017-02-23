@@ -1,11 +1,11 @@
 <md-tab-group [(selectedIndex)]="selectedIndex" (selectChange)="getData()">
   <md-tab label="Popular" disabled></md-tab>
   <md-tab label="Videos">
-    <app-swiper [videos]="videosList" *ngIf="selectedIndex==1&&showSpinner==false?true:false"></app-swiper>
+    <app-swiper [videos]="videos" *ngIf="selectedIndex==1&&showSpinner==false?true:false"></app-swiper>
     <md-spinner *ngIf="showSpinner" style="margin:0 auto;" ></md-spinner>
 </md-tab>
 <md-tab label="Collection">
-  <app-swiper [videos]="collectionsList" *ngIf="selectedIndex==2&&showSpinner==false?true:false"></app-swiper>
+  <app-swiper [videos]="collections" *ngIf="selectedIndex==2&&showSpinner==false?true:false"></app-swiper>
   <md-spinner *ngIf="showSpinner" style="margin:0 auto;" ></md-spinner>
 </md-tab>
 </md-tab-group>
