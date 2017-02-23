@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-single-media-player',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./single-media-player.component.css']
 })
 export class SingleMediaPlayerComponent implements OnInit {
-  
+  @Input() video : any;
   constructor() { }
 
   ngOnInit() {

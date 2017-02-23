@@ -9,7 +9,7 @@ import { Video } from '../videos/video';
   styleUrls: ['./video-detail.component.css']
 })
 export class VideoDetailComponent implements OnInit {
-  relatedVideos: Video[];
+  relatedVideos: any = [];
   videoDetail: Object;
   buttonBar = ButtonBar;
   videosButtonBar: any = [
@@ -19,14 +19,13 @@ export class VideoDetailComponent implements OnInit {
     { icon: 'share', name: 'share', id: this.buttonBar.share }];
   id = 1;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute) { 
+  }
 
 
   ngOnInit() {
-    console.log(this.route.params['id']);
-    //this.getVideoDetail();
+    console.log('id::'+this.route.snapshot.params['id']);
     this.getRelatedVideos();
-
     // this.route.params
     //   .map(params => params['id'])
     //   .subscribe((id) => {

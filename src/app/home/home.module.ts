@@ -37,7 +37,7 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
   keyboardControl: true,
   nextButton: '.swiper-button-next',
   prevButton: '.swiper-button-prev',
-  slidesPerView: 3,
+  slidesPerView: 4,
   spaceBetween: 30
 };
 
