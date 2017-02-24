@@ -29,5 +29,53 @@ export class RegisterComponent {
     this.loaderService.completeLoading();
     console.log(this.registerForm.value);
   }
+  errorMessageForFirstName() {
+    if (this.registerForm.controls['firstName'].hasError('required')) {
+      return 'First name is required'
+    }
+    else if (this.registerForm.controls['firstName'].hasError('maxlength')) {
+      return 'First name is too long'
+    }
+    else if (this.registerForm.controls['firstName'].hasError('pattern')) {
+      return 'Please enter valid first name'
+    }
+  }
+  errorMessageForLastName() {
+    if (this.registerForm.controls['lastName'].hasError('required')) {
+      return 'Last name is required'
+    }
+    else if (this.registerForm.controls['lastName'].hasError('maxlength')) {
+      return 'Last name is too long'
+    }
+    else if (this.registerForm.controls['lastName'].hasError('pattern')) {
+      return 'Please enter valid last name'
+    }
+  }
+
+  errorMessageForEmail() {
+    if (this.registerForm.controls['email'].hasError('required')) {
+      return 'Email is required'
+    }
+    else if (this.registerForm.controls['email'].hasError('pattern')) {
+      return 'Please enter valid email'
+    }
+  }
+
+  errorMessageForPassword() {
+    if (this.registerForm.controls['password'].hasError('required')) {
+      return 'password is required';
+    }
+    else if (this.registerForm.controls['password'].hasError('minlength')) {
+      return 'Password must be 6 characters long';
+    }
+  }
+  errorMessageForConfirmPassword() {
+    if (this.registerForm.controls['confirmPassword'].hasError('required')) {
+      return 'Confirm password is required';
+    }
+    if (this.registerForm.controls['password'].valid && this.registerForm.controls['password'].value !== this.registerForm.controls['confirmPassword'].value) {
+      return 'Password and confirm password do not match';
+    }
+  }
 
 }
