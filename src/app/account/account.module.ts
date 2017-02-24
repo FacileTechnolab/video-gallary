@@ -18,8 +18,8 @@ import { AppIconComponent } from '../components/app-icon/app-icon.component';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    AccountRoutingModule,
-    MaterialModule
+    MaterialModule,
+    AccountRoutingModule
   ],
   declarations: [AccountComponent, LoginComponent, RegisterComponent, ForgotPasswordComponent, AppIconComponent],
   providers: [RegularExpr]

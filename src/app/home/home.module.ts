@@ -12,14 +12,14 @@ import { SearchVideoComponentComponent } from './search-video-component/search-v
 import { CollectionComponent } from './collection/collection.component';
 import { VideosComponent } from './videos/videos.component';
 
-
 @NgModule({
   imports: [
-    HomeRoutingModule,
     SharedModule,
     SharedModule,
-    ComponentModule
+    ComponentModule,
+    HomeRoutingModule
   ],
+
   declarations: [HomeComponent, VideoGallaryHeaderComponent, PopularVideosListComponent, LatestVideosListComponent, VideoDetailComponent, RelatedVideoComponentComponent, SearchVideoComponentComponent, CollectionComponent, VideosComponent]
 })
 export class HomeModule { }

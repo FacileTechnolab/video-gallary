@@ -23,10 +23,10 @@ import { PageNotFoundComponent } from './components/not-found/not-found.componen
     MaterialModule.forRoot(),
     NgProgressModule,
     SharedModule,
-    AppRoutingModule,
     AdminModule,
     AccountModule,
-    HomeModule
+    HomeModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
