@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ButtonBar } from '../../button-bar.enum';
 import { ActivatedRoute } from '@angular/router';
 import { Video } from '../videos/video';
+import { VideoService } from '../videos/video.service';
 
 @Component({
   selector: 'app-video-detail',
@@ -19,12 +20,12 @@ export class VideoDetailComponent implements OnInit {
     { icon: 'share', name: 'share', id: this.buttonBar.share }];
   id = 1;
 
-  constructor(private route: ActivatedRoute) { 
+  constructor(private route: ActivatedRoute, private videoService: VideoService) {
   }
 
 
   ngOnInit() {
-    console.log('id::'+this.route.snapshot.params['id']);
+    console.log('id::' + this.route.snapshot.params['id']);
     this.getRelatedVideos();
     // this.route.params
     //   .map(params => params['id'])
@@ -35,13 +36,7 @@ export class VideoDetailComponent implements OnInit {
     //   });
   }
   private getRelatedVideos() {
-    return this.relatedVideos = [
-      { id: 1, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
-      { id: 2, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
-      { id: 3, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
-      { id: 4, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 6, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' },
-      { id: 5, image: 'http://indirakids.ac.in/wp-content/uploads/video-gallery.png', description: 'desc', lastSeen: 2, type: 'latest', videoLink: 'http://static.videogular.com/assets/videos/videogular.mp4', videoType: 'video/mp4' }
-    ];
+    this.videoService.getCollections().then(collections => this.relatedVideos = collections);
   }
 
   private getVideoDetail(id: number) {

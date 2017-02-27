@@ -11,6 +11,7 @@ import { RelatedVideoComponentComponent } from './related-video-component/relate
 import { SearchVideoComponentComponent } from './search-video-component/search-video-component.component';
 import { CollectionComponent } from './collection/collection.component';
 import { VideosComponent } from './videos/videos.component';
+import { VideoService } from './videos/video.service';
 
 @NgModule({
   imports: [
@@ -20,6 +21,7 @@ import { VideosComponent } from './videos/videos.component';
     HomeRoutingModule
   ],
 
-  declarations: [HomeComponent, VideoGallaryHeaderComponent, PopularVideosListComponent, LatestVideosListComponent, VideoDetailComponent, RelatedVideoComponentComponent, SearchVideoComponentComponent, CollectionComponent, VideosComponent]
+  declarations: [HomeComponent, VideoGallaryHeaderComponent, PopularVideosListComponent, LatestVideosListComponent, VideoDetailComponent, RelatedVideoComponentComponent, SearchVideoComponentComponent, CollectionComponent, VideosComponent],
+  providers: [VideoService]
 })
 export class HomeModule { }
