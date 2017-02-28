@@ -1,6 +1,9 @@
-/*.video-card{
-    width: 200px;
+.card img {
+  width: 100%;
+  height: auto;
+}
+/*.example-card{
+  border:2px dashed;
+  color :black;
 }*/
-/*.example-card {
-  width: 200px;
-}*/
+

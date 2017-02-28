@@ -22,6 +22,8 @@ import { CardFooterComponent } from './card-footer/card-footer.component';
 import { HorizontalBarComponent } from './horizontal-bar/horizontal-bar.component';
 import { SingleMediaPlayerComponent } from './single-media-player/single-media-player.component';
 import { VideoGridComponent } from './video-grid/video-grid.component';
+//pipes
+import { TruncatePipe } from './truncate';
 
 const SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -46,7 +48,7 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     FlexLayoutModule,
     SwiperModule.forRoot(SWIPER_CONFIG)
   ],
-  declarations: [NavComponent, CardComponent, CardFooterComponent, HorizontalBarComponent, SingleMediaPlayerComponent, SwiperComponent, VideoGridComponent],
+  declarations: [NavComponent, CardComponent, CardFooterComponent, HorizontalBarComponent, SingleMediaPlayerComponent, SwiperComponent, VideoGridComponent, TruncatePipe],
   exports: [CommonModule, FormsModule, MaterialModule, LayoutModule, FlexLayoutModule, NavComponent, CardComponent, CardFooterComponent, HorizontalBarComponent, SingleMediaPlayerComponent, SwiperComponent, VideoGridComponent]
 })
 
