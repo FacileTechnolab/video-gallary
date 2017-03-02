@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 //root routing
 import { AppRoutingModule } from './app.routes';
@@ -20,6 +21,7 @@ import { PageNotFoundComponent } from './components/not-found/not-found.componen
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     MaterialModule.forRoot(),
     NgProgressModule,
     SharedModule,

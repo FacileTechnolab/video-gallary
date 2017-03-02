@@ -1,13 +1,5 @@
-<!--<md-button-toggle-group>
-  <md-button-toggle *ngFor="let button of buttons" [value]="videoId" (change)="change(videoId,button.id)">
-    <i class="material-icons">{{button.icon}}</i>
-    <button md-mini-fab style="width:20px;height: 22px;bottom:15px;left:-10px;">1</button>
-  </md-button-toggle>-->
-<div class="flex-container" fxLayout="row" fxLayoutAlign="center center" fxLayoutAlign.xs="start">
-  <div class="flex-item" flex="20" *ngFor="let button of buttons">
-    <!--<md-icon (click)="change(videoId,button.id)">{{button.icon}}
-    </md-icon>-->
-      <div class="material-icons mdl-badge" data-badge="1" (click)="change(videoId,button.id)" style="cursor: pointer">{{button.icon}}</div>
-      <!--<div class="material-icons" data-badge="1" (click)="change(videoId,button.id)" style="cursor: pointer">{{button.icon}}</div>-->
+<div layout="row" layoutXs="column">
+  <div *ngFor="let button of buttons" flex="25">
+    <div class="material-icons mdl-badge" data-badge="1" (click)="change(videoId,button.id)" style="cursor: pointer">{{button.icon}}</div>
 </div>
 </div>

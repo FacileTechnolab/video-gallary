@@ -25,6 +25,7 @@ import { VideoGridComponent } from './video-grid/video-grid.component';
 //pipes
 import { TruncatePipe } from './truncate';
 
+
 const SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
   keyboardControl: true,

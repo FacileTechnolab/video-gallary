@@ -1,10 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 /*angualr 2 material theme*/
+
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
 
 @import "../node_modules/ng2-flex-layout/dist/ng2-flex-layout.css";
 /*video support*/
 @import '../node_modules/videogular2/fonts/videogular.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css';
 /*@import 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css';*/
 body {
   margin: 0;
@@ -25,4 +27,21 @@ body {
 }
 .error-message{
     color:red;
+}
+.mat-tab-body-content {
+    padding-bottom: 50px!important;
+}
+
+.mat-grid-tile .mat-figure {
+    display: block!important; 
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
 }

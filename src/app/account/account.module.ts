@@ -18,7 +18,7 @@ import { AppIconComponent } from '../components/app-icon/app-icon.component';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    MaterialModule,
+    MaterialModule.forRoot(),
     AccountRoutingModule
   ],
   declarations: [AccountComponent, LoginComponent, RegisterComponent, ForgotPasswordComponent, AppIconComponent],

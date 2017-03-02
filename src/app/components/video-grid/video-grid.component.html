@@ -1,146 +1,24 @@
-<md-grid-list cols="{{itemPerColumn}}" rowHeight="700px" gutterSize="20px">
+<!--<md-grid-list cols="{{itemPerColumn}}" rowHeight="700px" gutterSize="20px">
   <md-grid-tile *ngFor="let video of videos">
     <div>
       <app-card [videoCard]="video"></app-card>
     </div>
   </md-grid-tile>
+</md-grid-list>-->
+
+<!--<div layout="row">
+  <div *ngFor="let video of videos">
+    <app-card [videoCard]="video"></app-card>
+  </div>
+</div>-->
+
+
+<md-grid-list cols="{{itemPerColumn}}" gutterSize="30px"  rowHeight="700px">
+  <md-grid-tile *ngFor="let video of videos">
+      <app-card [videoCard]="video"></app-card>
+  </md-grid-tile>
 </md-grid-list>
-<!-- using flax -->
-<!--<div layout="row"  layoutXs="column">
-  <md-card style="width: 300px;" *ngFor="let video of videos"  >
-<img src="http://placehold.it/150x150" class="md-card-image" alt="user avatar">
-<md-card-content>
-  <h2>{{user}}</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-</md-card-content>
-<div class="md-actions" layout="row" layout-align="end center">
- 
-</div>
-</md-card>
-</div>-->
-<!--using simple flax-->
-<!--<div class="gridListdemoBasicUsage">
-<div  layout="row" layout-wrap>
-  <md-card style="width: 300px;" *ngFor="let user of users" style="margin:8px!important">
- <img md-card-image src="http://placehold.it/150x150">
-<md-card-content>
-  <h2>{{user}}</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-</md-card-content>
-<div class="md-actions" layout="row" layout-align="end center">
-  <button md-button>Save</button>
-  <button md-button>View</button>
-</div>
-</md-card>
-</div>
-</div>-->
-
-<!--<div class="flex-container" 
-     fxLayout="row" 
-     fxLayout.xs="column"
-     fxLayoutAlign="center center"
-     fxLayoutAlign.xs="start">
-  <div class="flex-item" fxFlex="20%" >  1</div>
-  <div class="flex-item" fxFlex="20%">  2      </div>
-  <div class="flex-item" fxFlex="20%"> 3</div>
-  <div class="flex-item" fxFlex="20%"> 4</div>
-</div> -->
-
-<!--<div class="flex-container" fxLayout="row" fxLayout.xs="column"  fxLayoutAlign.xs="start" >
   
-  <div class="flex-item" fxFlex="20%" fxFlexOrder="1">
-    <md-card class="example-card" > 
-      <img md-card-image src="http://placehold.it/150x150">
-      <md-card-content>
-        <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
-          very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
-        </p>
-      </md-card-content>
-      <md-card-actions>
-       <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-      </md-card-actions>
-    </md-card>
-  </div>
-  <div class="flex-item" fxFlex="20%" fxFlexOrder="2">
-    <md-card class="example-card">
-      <img md-card-image src="http://placehold.it/150x150">
-      <md-card-content>
-        <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
-          very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
-        </p>
-      </md-card-content>
-      <md-card-actions>
-        <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-        <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-      </md-card-actions>
-    </md-card>
-  </div>
-  <div class="flex-item" fxFlex="20%" fxFlexOrder="3">
-    <md-card class="example-card">
-      <img md-card-image src="http://placehold.it/150x150">
-      <md-card-content>
-        <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
-          very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
-        </p>
-      </md-card-content>
-      <md-card-actions>
-        <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-        <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-      </md-card-actions>
-    </md-card>
-  </div>
-  <div class="flex-item" fxFlex="20%" fxFlexOrder="4">
-    <md-card class="example-card">
-      <img md-card-image src="http://placehold.it/150x150">
-      <md-card-content>
-        <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
-          very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
-        </p>
-      </md-card-content>
-      <md-card-actions>
-        <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-      </md-card-actions>
-    </md-card>
-  </div>
-  <div class="flex-item" fxFlex="20%" fxFlexOrder="5">
-    <md-card class="example-card">
-      <img md-card-image src="http://placehold.it/150x150">
-      <md-card-content>
-        <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
-          very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
-        </p>
-      </md-card-content>
-      <md-card-actions>
-        <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-      </md-card-actions>
-    </md-card>
-  </div>
-  <div class="flex-item" fxFlex="20%" fxFlexOrder="6">
-    <md-card class="example-card">
-      <img md-card-image src="http://placehold.it/150x150">
-      <md-card-content>
-        <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
-          very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
-        </p>
-      </md-card-content>
-      <md-card-actions>
-        <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-      </md-card-actions>
-    </md-card>
-  </div>
 
-</div>-->
+  
+

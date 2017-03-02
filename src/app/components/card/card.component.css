@@ -1,9 +1,8 @@
+p{
+  text-align: left;
+}
+
 .card img {
   width: 100%;
   height: auto;
 }
-/*.example-card{
-  border:2px dashed;
-  color :black;
-}*/
-
