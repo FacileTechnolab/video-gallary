@@ -24,6 +24,8 @@ import { SingleMediaPlayerComponent } from './single-media-player/single-media-p
 import { VideoGridComponent } from './video-grid/video-grid.component';
 //pipes
 import { TruncatePipe } from './truncate';
+//moment.js
+import {MomentModule} from 'angular2-moment';
 
 
 const SWIPER_CONFIG: SwiperConfigInterface = {
@@ -47,6 +49,7 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     VgBufferingModule,
     LayoutModule,
     FlexLayoutModule,
+    MomentModule,
     SwiperModule.forRoot(SWIPER_CONFIG)
   ],
   declarations: [NavComponent, CardComponent, CardFooterComponent, HorizontalBarComponent, SingleMediaPlayerComponent, SwiperComponent, VideoGridComponent, TruncatePipe],
