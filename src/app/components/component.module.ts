@@ -9,8 +9,6 @@ import { VgCoreModule } from 'videogular2/core';
 import { VgControlsModule } from 'videogular2/controls';
 import { VgOverlayPlayModule } from 'videogular2/overlay-play';
 import { VgBufferingModule } from 'videogular2/buffering';
-//layout
-import { LayoutModule } from 'ng2-flex-layout';
 import { FlexLayoutModule } from "@angular/flex-layout";
 //swiper
 import { SwiperModule, SwiperConfigInterface } from 'angular2-swiper-wrapper';
@@ -25,7 +23,7 @@ import { VideoGridComponent } from './video-grid/video-grid.component';
 //pipes
 import { TruncatePipe } from './truncate';
 //moment.js
-import {MomentModule} from 'angular2-moment';
+import { MomentModule } from 'angular2-moment';
 
 
 const SWIPER_CONFIG: SwiperConfigInterface = {
@@ -47,13 +45,12 @@ const SWIPER_CONFIG: SwiperConfigInterface = {
     VgControlsModule,
     VgOverlayPlayModule,
     VgBufferingModule,
-    LayoutModule,
     FlexLayoutModule,
     MomentModule,
     SwiperModule.forRoot(SWIPER_CONFIG)
   ],
   declarations: [NavComponent, CardComponent, CardFooterComponent, HorizontalBarComponent, SingleMediaPlayerComponent, SwiperComponent, VideoGridComponent, TruncatePipe],
-  exports: [CommonModule, FormsModule, MaterialModule, LayoutModule, FlexLayoutModule, NavComponent, CardComponent, CardFooterComponent, HorizontalBarComponent, SingleMediaPlayerComponent, SwiperComponent, VideoGridComponent]
+  exports: [CommonModule, FormsModule, MaterialModule, FlexLayoutModule, NavComponent, CardComponent, CardFooterComponent, HorizontalBarComponent, SingleMediaPlayerComponent, SwiperComponent, VideoGridComponent]
 })
 
 export class ComponentModule { }

@@ -2,7 +2,6 @@
 /*angualr 2 material theme*/
 
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
-@import "../node_modules/ng2-flex-layout/dist/ng2-flex-layout.css";
 /*video support*/
 @import '../node_modules/videogular2/fonts/videogular.css';
 /*swiper css*/

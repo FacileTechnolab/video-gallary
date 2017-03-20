@@ -1,5 +1,5 @@
-<div layout="row" layoutXs="column">
+<div  fxLayout="row" fxLayoutWrap fxLayout.xs="column" fxLayoutAlign="space-around center"> 
   <div *ngFor="let button of buttons" flex="25">
     <div class="material-icons mdl-badge" data-badge="1" (click)="change(videoId,button.id)" style="cursor: pointer">{{button.icon}}</div>
-</div>
+  </div>
 </div>

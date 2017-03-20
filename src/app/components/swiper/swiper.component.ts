@@ -12,11 +12,9 @@ export class SwiperComponent implements OnInit {
   videoCards: any = [];
 
   ngOnInit() {
-    console.log('nginit');
     this.videoCards = this.videos;
   }
   ngOnChanges(changes: SimpleChanges) {
-    console.log('OnChanges');
     if (changes['videos']) {
       console.log('video changes');
       this.videoCards = this.videos;

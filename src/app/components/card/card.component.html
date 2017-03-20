@@ -3,14 +3,14 @@
     <img md-card-image src="{{videoCard.image}}" (click)="getDetail(videoCard.id)">
     <md-card-content>
       <p> {{videoCard.description | truncate:100}}</p>
-      <div layout="row" layoutXs="column">
+      <div fxLayout="row" fxLayout.xs="column">
         <div><i class="material-icons">timer</i></div>
         <div style="margin-top: 5px;">{{lastSeen | amTimeAgo}}</div>
-</div>
-</md-card-content>
-<hr/>
-<md-card-actions>
-  <app-card-footer [buttons]="videosButtonBar" [videoId]="videoCard.id"></app-card-footer>
-</md-card-actions>
-</md-card>
+      </div>
+    </md-card-content>
+    <hr/>
+    <md-card-actions>
+      <app-card-footer [buttons]="videosButtonBar" [videoId]="videoCard.id"></app-card-footer>
+    </md-card-actions>
+  </md-card>
 </div>
