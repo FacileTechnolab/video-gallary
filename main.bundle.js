@@ -1,9 +1,9 @@
 webpackJsonp([0,3],{
 
-/***/ 1020:
+/***/ 1025:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -18,10 +18,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1021:
+/***/ 1026:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -36,10 +36,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1022:
+/***/ 1027:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -54,10 +54,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1023:
+/***/ 1028:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -72,100 +72,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1024:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(10)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 1025:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(10)(false);
-// imports
-
-
-// module
-exports.push([module.i, "\r\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 1026:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(10)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".app-icon{\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  margin-bottom: 10px;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 1027:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(10)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".material-icons.mdl-badge[data-badge]::after,\r\n.material-label.mdl-badge[data-badge]::after{\r\n  font-size: .3em;\r\n  width: 2em;\r\n  height: 2em;\r\n}\r\n\r\n.material-icons.mdl-badge[data-badge]::after {\r\n  top: -1em;\r\n  right: -2em;\r\n}\r\n\r\n.material-icons.icon,\r\n.material-label {\r\n  font-size: 3em;\r\n  line-height: 1;\r\n  display: block;\r\n  color: #424242;\r\n  margin: .5em 0\r\n}\r\nsection {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n}\r\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 1028:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(10)(false);
-// imports
-
-
-// module
-exports.push([module.i, "p{\r\n  text-align: left;\r\n}\r\n\r\n.card img {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
 /***/ 1029:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -183,12 +93,12 @@ module.exports = module.exports.toString();
 /***/ 1030:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
 // module
-exports.push([module.i, ".search-box{\r\n    width: 700px!important;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-left : 70px;\r\n}\r\n.icon{\r\n  width: 30px,\r\n}\r\n.search-box-textbox{\r\n  width: 60%;\r\n  height: 25px;\r\n}", ""]);
+exports.push([module.i, "\r\n", ""]);
 
 // exports
 
@@ -201,12 +111,12 @@ module.exports = module.exports.toString();
 /***/ 1031:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".app-icon{\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  margin-bottom: 10px;\r\n}", ""]);
 
 // exports
 
@@ -219,12 +129,12 @@ module.exports = module.exports.toString();
 /***/ 1032:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
 // module
-exports.push([module.i, ".videogular-container {\r\n\twidth: 100%;\r\n\theight: 320px;\r\n\tmargin: auto;\r\n\toverflow: hidden;\r\n}\r\n \r\n@media (min-width: 1200px) {\r\n\t.videogular-container {\r\n\t\twidth: 1170px;\r\n\t\theight: 658.125px;\r\n\t}\r\n}\r\n \r\n@media (min-width: 992px) and (max-width: 1199px) {\r\n\t.videogular-container {\r\n\t\twidth: 940px;\r\n\t\theight: 528.75px;\r\n\t}\r\n}\r\n \r\n@media (min-width: 768px) and (max-width: 991px) {\r\n\t.videogular-container {\r\n\t\twidth: 728px;\r\n\t\theight: 409.5px;\r\n\t}\r\n}", ""]);
+exports.push([module.i, ".material-icons.mdl-badge[data-badge]::after,\r\n.material-label.mdl-badge[data-badge]::after{\r\n  font-size: .3em;\r\n  width: 2em;\r\n  height: 2em;\r\n}\r\n\r\n.material-icons.mdl-badge[data-badge]::after {\r\n  top: -1em;\r\n  right: -2em;\r\n}\r\n\r\n.material-icons.icon,\r\n.material-label {\r\n  font-size: 3em;\r\n  line-height: 1;\r\n  display: block;\r\n  color: #424242;\r\n  margin: .5em 0\r\n}\r\nsection {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n}\r\n", ""]);
 
 // exports
 
@@ -237,12 +147,12 @@ module.exports = module.exports.toString();
 /***/ 1033:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
 // module
-exports.push([module.i, ".parent {\r\n  overflow: hidden;\r\n  padding-bottom: 50px;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, "p{\r\n  text-align: left;\r\n}\r\n\r\n.card img {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -255,7 +165,7 @@ module.exports = module.exports.toString();
 /***/ 1034:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -273,12 +183,12 @@ module.exports = module.exports.toString();
 /***/ 1035:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".search-box{\r\n    width: 700px!important;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-left : 70px;\r\n}\r\n.icon{\r\n  width: 30px,\r\n}\r\n.search-box-textbox{\r\n  width: 60%;\r\n  height: 25px;\r\n}", ""]);
 
 // exports
 
@@ -291,7 +201,7 @@ module.exports = module.exports.toString();
 /***/ 1036:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -309,12 +219,12 @@ module.exports = module.exports.toString();
 /***/ 1037:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".videogular-container {\r\n\twidth: 100%;\r\n\theight: 320px;\r\n\tmargin: auto;\r\n\toverflow: hidden;\r\n}\r\n \r\n@media (min-width: 1200px) {\r\n\t.videogular-container {\r\n\t\twidth: 1170px;\r\n\t\theight: 658.125px;\r\n\t}\r\n}\r\n \r\n@media (min-width: 992px) and (max-width: 1199px) {\r\n\t.videogular-container {\r\n\t\twidth: 940px;\r\n\t\theight: 528.75px;\r\n\t}\r\n}\r\n \r\n@media (min-width: 768px) and (max-width: 991px) {\r\n\t.videogular-container {\r\n\t\twidth: 728px;\r\n\t\theight: 409.5px;\r\n\t}\r\n}", ""]);
 
 // exports
 
@@ -327,12 +237,12 @@ module.exports = module.exports.toString();
 /***/ 1038:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".parent {\r\n  overflow: hidden;\r\n  padding-bottom: 50px;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -345,7 +255,7 @@ module.exports = module.exports.toString();
 /***/ 1039:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -363,7 +273,7 @@ module.exports = module.exports.toString();
 /***/ 1040:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -381,7 +291,97 @@ module.exports = module.exports.toString();
 /***/ 1041:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 1042:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 1043:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 1044:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 1045:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 1046:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -396,10 +396,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1042:
+/***/ 1047:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -414,51 +414,55 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1044:
+/***/ 1049:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 538,
-	"./af.js": 538,
-	"./ar": 544,
-	"./ar-dz": 539,
-	"./ar-dz.js": 539,
-	"./ar-ly": 540,
-	"./ar-ly.js": 540,
-	"./ar-ma": 541,
-	"./ar-ma.js": 541,
-	"./ar-sa": 542,
-	"./ar-sa.js": 542,
-	"./ar-tn": 543,
-	"./ar-tn.js": 543,
-	"./ar.js": 544,
-	"./az": 545,
-	"./az.js": 545,
-	"./be": 546,
-	"./be.js": 546,
-	"./bg": 547,
-	"./bg.js": 547,
-	"./bn": 548,
-	"./bn.js": 548,
-	"./bo": 549,
-	"./bo.js": 549,
-	"./br": 550,
-	"./br.js": 550,
-	"./bs": 551,
-	"./bs.js": 551,
-	"./ca": 552,
-	"./ca.js": 552,
-	"./cs": 553,
-	"./cs.js": 553,
-	"./cv": 554,
-	"./cv.js": 554,
-	"./cy": 555,
-	"./cy.js": 555,
-	"./da": 556,
-	"./da.js": 556,
+	"./af": 536,
+	"./af.js": 536,
+	"./ar": 543,
+	"./ar-dz": 537,
+	"./ar-dz.js": 537,
+	"./ar-kw": 538,
+	"./ar-kw.js": 538,
+	"./ar-ly": 539,
+	"./ar-ly.js": 539,
+	"./ar-ma": 540,
+	"./ar-ma.js": 540,
+	"./ar-sa": 541,
+	"./ar-sa.js": 541,
+	"./ar-tn": 542,
+	"./ar-tn.js": 542,
+	"./ar.js": 543,
+	"./az": 544,
+	"./az.js": 544,
+	"./be": 545,
+	"./be.js": 545,
+	"./bg": 546,
+	"./bg.js": 546,
+	"./bn": 547,
+	"./bn.js": 547,
+	"./bo": 548,
+	"./bo.js": 548,
+	"./br": 549,
+	"./br.js": 549,
+	"./bs": 550,
+	"./bs.js": 550,
+	"./ca": 551,
+	"./ca.js": 551,
+	"./cs": 552,
+	"./cs.js": 552,
+	"./cv": 553,
+	"./cv.js": 553,
+	"./cy": 554,
+	"./cy.js": 554,
+	"./da": 555,
+	"./da.js": 555,
 	"./de": 558,
-	"./de-at": 557,
-	"./de-at.js": 557,
+	"./de-at": 556,
+	"./de-at.js": 556,
+	"./de-ch": 557,
+	"./de-ch.js": 557,
 	"./de.js": 558,
 	"./dv": 559,
 	"./dv.js": 559,
@@ -502,138 +506,148 @@ var map = {
 	"./gd.js": 578,
 	"./gl": 579,
 	"./gl.js": 579,
-	"./he": 580,
-	"./he.js": 580,
-	"./hi": 581,
-	"./hi.js": 581,
-	"./hr": 582,
-	"./hr.js": 582,
-	"./hu": 583,
-	"./hu.js": 583,
-	"./hy-am": 584,
-	"./hy-am.js": 584,
-	"./id": 585,
-	"./id.js": 585,
-	"./is": 586,
-	"./is.js": 586,
-	"./it": 587,
-	"./it.js": 587,
-	"./ja": 588,
-	"./ja.js": 588,
-	"./jv": 589,
-	"./jv.js": 589,
-	"./ka": 590,
-	"./ka.js": 590,
-	"./kk": 591,
-	"./kk.js": 591,
-	"./km": 592,
-	"./km.js": 592,
-	"./ko": 593,
-	"./ko.js": 593,
-	"./ky": 594,
-	"./ky.js": 594,
-	"./lb": 595,
-	"./lb.js": 595,
-	"./lo": 596,
-	"./lo.js": 596,
-	"./lt": 597,
-	"./lt.js": 597,
-	"./lv": 598,
-	"./lv.js": 598,
-	"./me": 599,
-	"./me.js": 599,
-	"./mi": 600,
-	"./mi.js": 600,
-	"./mk": 601,
-	"./mk.js": 601,
-	"./ml": 602,
-	"./ml.js": 602,
-	"./mr": 603,
-	"./mr.js": 603,
-	"./ms": 605,
-	"./ms-my": 604,
-	"./ms-my.js": 604,
-	"./ms.js": 605,
-	"./my": 606,
-	"./my.js": 606,
-	"./nb": 607,
-	"./nb.js": 607,
-	"./ne": 608,
-	"./ne.js": 608,
-	"./nl": 610,
-	"./nl-be": 609,
-	"./nl-be.js": 609,
-	"./nl.js": 610,
-	"./nn": 611,
-	"./nn.js": 611,
-	"./pa-in": 612,
-	"./pa-in.js": 612,
-	"./pl": 613,
-	"./pl.js": 613,
-	"./pt": 615,
-	"./pt-br": 614,
-	"./pt-br.js": 614,
-	"./pt.js": 615,
-	"./ro": 616,
-	"./ro.js": 616,
-	"./ru": 617,
-	"./ru.js": 617,
-	"./se": 618,
-	"./se.js": 618,
-	"./si": 619,
-	"./si.js": 619,
-	"./sk": 620,
-	"./sk.js": 620,
-	"./sl": 621,
-	"./sl.js": 621,
-	"./sq": 622,
-	"./sq.js": 622,
-	"./sr": 624,
-	"./sr-cyrl": 623,
-	"./sr-cyrl.js": 623,
-	"./sr.js": 624,
-	"./ss": 625,
-	"./ss.js": 625,
-	"./sv": 626,
-	"./sv.js": 626,
-	"./sw": 627,
-	"./sw.js": 627,
-	"./ta": 628,
-	"./ta.js": 628,
-	"./te": 629,
-	"./te.js": 629,
-	"./tet": 630,
-	"./tet.js": 630,
-	"./th": 631,
-	"./th.js": 631,
-	"./tl-ph": 632,
-	"./tl-ph.js": 632,
-	"./tlh": 633,
-	"./tlh.js": 633,
-	"./tr": 634,
-	"./tr.js": 634,
-	"./tzl": 635,
-	"./tzl.js": 635,
-	"./tzm": 637,
-	"./tzm-latn": 636,
-	"./tzm-latn.js": 636,
-	"./tzm.js": 637,
-	"./uk": 638,
-	"./uk.js": 638,
-	"./uz": 639,
-	"./uz.js": 639,
-	"./vi": 640,
-	"./vi.js": 640,
-	"./x-pseudo": 641,
-	"./x-pseudo.js": 641,
-	"./yo": 642,
-	"./yo.js": 642,
-	"./zh-cn": 643,
-	"./zh-cn.js": 643,
-	"./zh-hk": 644,
-	"./zh-hk.js": 644,
-	"./zh-tw": 645,
-	"./zh-tw.js": 645
+	"./gom-latn": 580,
+	"./gom-latn.js": 580,
+	"./he": 581,
+	"./he.js": 581,
+	"./hi": 582,
+	"./hi.js": 582,
+	"./hr": 583,
+	"./hr.js": 583,
+	"./hu": 584,
+	"./hu.js": 584,
+	"./hy-am": 585,
+	"./hy-am.js": 585,
+	"./id": 586,
+	"./id.js": 586,
+	"./is": 587,
+	"./is.js": 587,
+	"./it": 588,
+	"./it.js": 588,
+	"./ja": 589,
+	"./ja.js": 589,
+	"./jv": 590,
+	"./jv.js": 590,
+	"./ka": 591,
+	"./ka.js": 591,
+	"./kk": 592,
+	"./kk.js": 592,
+	"./km": 593,
+	"./km.js": 593,
+	"./kn": 594,
+	"./kn.js": 594,
+	"./ko": 595,
+	"./ko.js": 595,
+	"./ky": 596,
+	"./ky.js": 596,
+	"./lb": 597,
+	"./lb.js": 597,
+	"./lo": 598,
+	"./lo.js": 598,
+	"./lt": 599,
+	"./lt.js": 599,
+	"./lv": 600,
+	"./lv.js": 600,
+	"./me": 601,
+	"./me.js": 601,
+	"./mi": 602,
+	"./mi.js": 602,
+	"./mk": 603,
+	"./mk.js": 603,
+	"./ml": 604,
+	"./ml.js": 604,
+	"./mr": 605,
+	"./mr.js": 605,
+	"./ms": 607,
+	"./ms-my": 606,
+	"./ms-my.js": 606,
+	"./ms.js": 607,
+	"./my": 608,
+	"./my.js": 608,
+	"./nb": 609,
+	"./nb.js": 609,
+	"./ne": 610,
+	"./ne.js": 610,
+	"./nl": 612,
+	"./nl-be": 611,
+	"./nl-be.js": 611,
+	"./nl.js": 612,
+	"./nn": 613,
+	"./nn.js": 613,
+	"./pa-in": 614,
+	"./pa-in.js": 614,
+	"./pl": 615,
+	"./pl.js": 615,
+	"./pt": 617,
+	"./pt-br": 616,
+	"./pt-br.js": 616,
+	"./pt.js": 617,
+	"./ro": 618,
+	"./ro.js": 618,
+	"./ru": 619,
+	"./ru.js": 619,
+	"./sd": 620,
+	"./sd.js": 620,
+	"./se": 621,
+	"./se.js": 621,
+	"./si": 622,
+	"./si.js": 622,
+	"./sk": 623,
+	"./sk.js": 623,
+	"./sl": 624,
+	"./sl.js": 624,
+	"./sq": 625,
+	"./sq.js": 625,
+	"./sr": 627,
+	"./sr-cyrl": 626,
+	"./sr-cyrl.js": 626,
+	"./sr.js": 627,
+	"./ss": 628,
+	"./ss.js": 628,
+	"./sv": 629,
+	"./sv.js": 629,
+	"./sw": 630,
+	"./sw.js": 630,
+	"./ta": 631,
+	"./ta.js": 631,
+	"./te": 632,
+	"./te.js": 632,
+	"./tet": 633,
+	"./tet.js": 633,
+	"./th": 634,
+	"./th.js": 634,
+	"./tl-ph": 635,
+	"./tl-ph.js": 635,
+	"./tlh": 636,
+	"./tlh.js": 636,
+	"./tr": 637,
+	"./tr.js": 637,
+	"./tzl": 638,
+	"./tzl.js": 638,
+	"./tzm": 640,
+	"./tzm-latn": 639,
+	"./tzm-latn.js": 639,
+	"./tzm.js": 640,
+	"./uk": 641,
+	"./uk.js": 641,
+	"./ur": 642,
+	"./ur.js": 642,
+	"./uz": 644,
+	"./uz-latn": 643,
+	"./uz-latn.js": 643,
+	"./uz.js": 644,
+	"./vi": 645,
+	"./vi.js": 645,
+	"./x-pseudo": 646,
+	"./x-pseudo.js": 646,
+	"./yo": 647,
+	"./yo.js": 647,
+	"./zh-cn": 648,
+	"./zh-cn.js": 648,
+	"./zh-hk": 649,
+	"./zh-hk.js": 649,
+	"./zh-tw": 650,
+	"./zh-tw.js": 650
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -649,190 +663,190 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 1044;
+webpackContext.id = 1049;
 
-
-/***/ }),
-
-/***/ 1050:
-/***/ (function(module, exports) {
-
-module.exports = "<router-outlet></router-outlet>\r\n\r\n"
-
-/***/ }),
-
-/***/ 1051:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"form-forgorPassword\">\n  <app-app-icon></app-app-icon>\n  <md-card>\n    <md-card-title>\n      <md-toolbar color=\"primary\">\n        <span>Forgot password</span>\n      </md-toolbar>\n    </md-card-title>\n    <md-card-content>\n      <form name=\"forgotPassword-form\" #f=\"ngForm\" (ngSubmit)=\"forgotPassword()\" novalidate>\n        <md-input-container>\n          <input mdInput placeholder=\"Email\" type=\"email\" id=\"username\" name=\"username\" [(ngModel)]=\"user.email\" required>\n        </md-input-container>\n        <div>\n          <button md-raised-button color=\"primary\" type=\"submit\" [disabled]=\"!f.form.valid\">Submit</button>\n          <a md-button color=\"primary\" routerLink=\"/account/login\">Back to login</a>\n        </div>\n      </form>\n    </md-card-content>\n  </md-card>\n</div>"
-
-/***/ }),
-
-/***/ 1052:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"form-login\">\n  <app-app-icon></app-app-icon>\n  <md-card>\n    <md-card-title>\n      <md-toolbar color=\"primary\">\n        <span>Login</span>\n      </md-toolbar>\n    </md-card-title>\n    <md-card-content>\n      <form name=\"login-form\" #f=\"ngForm\" (ngSubmit)=\"doLogin()\" novalidate>\n        <md-input-container>\n          <input mdInput placeholder=\"User Name\" type=\"email\" id=\"username\" name=\"username\" [(ngModel)]=\"user.username\" required>\n        </md-input-container>\n        <md-input-container>\n          <input mdInput placeholder=\"Password\" type=\"password\" id=\"password\" name=\"password\" [(ngModel)]=\"user.password\" required>\n        </md-input-container>\n        <div class=\"social-button-row\">\n          <md-icon svgIcon=\"facebook\"></md-icon>\n          <md-icon svgIcon=\"google-plus\"></md-icon>\n        </div>\n        <div class=\"padding\">\n          <button md-raised-button color=\"primary\" type=\"submit\" [disabled]=\"!f.form.valid\">Login</button>\n          <a md-button routerLink=\"/account/register\" color=\"primary\">Create an account</a>\n          <a md-button routerLink=\"/account/forgotPassword\" color=\"primary\">Forgot password?</a>\n        </div>\n      </form>\n    </md-card-content>\n  </md-card>\n</div>\n\n  "
-
-/***/ }),
-
-/***/ 1053:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"form-register\">\n  <app-app-icon></app-app-icon>\n  <md-card>\n    <md-card-title>\n      <md-toolbar color=\"primary\">\n        <span>Create New Account</span>\n      </md-toolbar>\n    </md-card-title>\n    <md-card-content>\n      <form name=\"register-form\" (ngSubmit)=\"registerUser()\" novalidate [formGroup]=\"registerForm\">\n        <md-input-container>\n          <input mdInput placeholder=\"First Name\" type=\"text\" id=\"firstName\" name=\"firstName\" formControlName=\"firstName\">\n          <md-hint *ngIf=\"registerForm.controls.firstName.touched&&errorMessageForFirstName()\" class=\"error-message\" align=\"start\">{{errorMessageForFirstName()}}</md-hint>\n        </md-input-container>\n        <md-input-container>\n          <input mdInput placeholder=\"Last Name\" type=\"text\" id=\"lastName\" name=\"lastName\" formControlName=\"lastName\">\n          <md-hint *ngIf=\"registerForm.controls.lastName.touched&&errorMessageForLastName()\" class=\"error-message\" align=\"start\">{{errorMessageForLastName()}}</md-hint>\n        </md-input-container>\n        <md-input-container>\n          <input mdInput placeholder=\"Email\" type=\"email\" id=\"email\" name=\"email\" formControlName=\"email\">\n          <md-hint *ngIf=\"registerForm.controls.email.touched&&errorMessageForEmail()\" class=\"error-message\" align=\"start\">{{errorMessageForEmail()}}</md-hint>\n        </md-input-container>\n        <md-input-container>\n          <input mdInput placeholder=\"Password\" type=\"password\" id=\"password\" name=\"password\" formControlName=\"password\">\n          <md-hint *ngIf=\"registerForm.controls.password.touched&&errorMessageForPassword()\" class=\"error-message\" align=\"start\">{{errorMessageForPassword()}}</md-hint>\n        </md-input-container>\n        <md-input-container>\n          <input mdInput placeholder=\"Confirm Password\" type=\"password\" id=\"password\" name=\"password\" formControlName=\"confirmPassword\">\n          <md-hint *ngIf=\"registerForm.controls.confirmPassword.touched&&errorMessageForConfirmPassword()\" class=\"error-message\" align=\"start\">{{errorMessageForConfirmPassword()}}</md-hint>\n        </md-input-container>\n        <button md-raised-button color=\"primary\" type=\"submit\" [disabled]=\"!registerForm.valid\">Register</button>\n        <button md-button color=\"primary\" type=\"button\" routerLink=\"/account/login\">Back To Login</button>\n      </form>\n    </md-card-content>\n  </md-card>\n</div>"
-
-/***/ }),
-
-/***/ 1054:
-/***/ (function(module, exports) {
-
-module.exports = "<h1>Admin Component</h1>\r\n<router-outlet></router-outlet>"
 
 /***/ }),
 
 /***/ 1055:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  dashboard works!\n</p>\n"
+module.exports = "<router-outlet></router-outlet>\r\n\r\n"
 
 /***/ }),
 
 /***/ 1056:
 /***/ (function(module, exports) {
 
-module.exports = "<ng-progress [showSpinner]=\"false\"></ng-progress>\r\n<router-outlet></router-outlet>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+module.exports = "<div class=\"form-forgorPassword\">\r\n  <app-app-icon></app-app-icon>\r\n  <md-card>\r\n    <md-card-title>\r\n      <md-toolbar color=\"primary\">\r\n        <span>Forgot password</span>\r\n      </md-toolbar>\r\n    </md-card-title>\r\n    <md-card-content>\r\n      <form name=\"forgotPassword-form\" #f=\"ngForm\" (ngSubmit)=\"forgotPassword()\" novalidate>\r\n        <md-input-container>\r\n          <input mdInput placeholder=\"Email\" type=\"email\" id=\"username\" name=\"username\" [(ngModel)]=\"user.email\" required>\r\n        </md-input-container>\r\n        <div>\r\n          <button md-raised-button color=\"primary\" type=\"submit\" [disabled]=\"!f.form.valid\">Submit</button>\r\n          <a md-button color=\"primary\" routerLink=\"/account/login\">Back to login</a>\r\n        </div>\r\n      </form>\r\n    </md-card-content>\r\n  </md-card>\r\n</div>"
 
 /***/ }),
 
 /***/ 1057:
 /***/ (function(module, exports) {
 
-module.exports = " <img src=\"{{imageSrc}}\" alt=\"app-icon\" class=\"app-icon\">"
+module.exports = "<div class=\"form-login\">\r\n  <app-app-icon></app-app-icon>\r\n  <md-card>\r\n    <md-card-title>\r\n      <md-toolbar color=\"primary\">\r\n        <span>Login</span>\r\n      </md-toolbar>\r\n    </md-card-title>\r\n    <md-card-content>\r\n      <form name=\"login-form\" #f=\"ngForm\" (ngSubmit)=\"doLogin()\" novalidate>\r\n        <md-input-container>\r\n          <input mdInput placeholder=\"User Name\" type=\"email\" id=\"username\" name=\"username\" [(ngModel)]=\"user.username\" required>\r\n        </md-input-container>\r\n        <md-input-container>\r\n          <input mdInput placeholder=\"Password\" type=\"password\" id=\"password\" name=\"password\" [(ngModel)]=\"user.password\" required>\r\n        </md-input-container>\r\n        <div class=\"social-button-row\">\r\n          <md-icon svgIcon=\"facebook\"></md-icon>\r\n          <md-icon svgIcon=\"google-plus\"></md-icon>\r\n        </div>\r\n        <div class=\"padding\">\r\n          <button md-raised-button color=\"primary\" type=\"submit\" [disabled]=\"!f.form.valid\">Login</button>\r\n          <a md-button routerLink=\"/account/register\" color=\"primary\">Create an account</a>\r\n          <a md-button routerLink=\"/account/forgotPassword\" color=\"primary\">Forgot password?</a>\r\n        </div>\r\n      </form>\r\n    </md-card-content>\r\n  </md-card>\r\n</div>\r\n\r\n  "
 
 /***/ }),
 
 /***/ 1058:
 /***/ (function(module, exports) {
 
-module.exports = "<div layout=\"row\" layoutXs=\"column\">\n  <div *ngFor=\"let button of buttons\" flex=\"25\">\n    <div class=\"material-icons mdl-badge\" data-badge=\"1\" (click)=\"change(videoId,button.id)\" style=\"cursor: pointer\">{{button.icon}}</div>\n</div>\n</div>"
+module.exports = "<div class=\"form-register\">\r\n  <app-app-icon></app-app-icon>\r\n  <md-card>\r\n    <md-card-title>\r\n      <md-toolbar color=\"primary\">\r\n        <span>Create New Account</span>\r\n      </md-toolbar>\r\n    </md-card-title>\r\n    <md-card-content>\r\n      <form name=\"register-form\" (ngSubmit)=\"registerUser()\" novalidate [formGroup]=\"registerForm\">\r\n        <md-input-container>\r\n          <input mdInput placeholder=\"First Name\" type=\"text\" id=\"firstName\" name=\"firstName\" formControlName=\"firstName\">\r\n          <md-hint *ngIf=\"registerForm.controls.firstName.touched&&errorMessageForFirstName()\" class=\"error-message\" align=\"start\">{{errorMessageForFirstName()}}</md-hint>\r\n        </md-input-container>\r\n        <md-input-container>\r\n          <input mdInput placeholder=\"Last Name\" type=\"text\" id=\"lastName\" name=\"lastName\" formControlName=\"lastName\">\r\n          <md-hint *ngIf=\"registerForm.controls.lastName.touched&&errorMessageForLastName()\" class=\"error-message\" align=\"start\">{{errorMessageForLastName()}}</md-hint>\r\n        </md-input-container>\r\n        <md-input-container>\r\n          <input mdInput placeholder=\"Email\" type=\"email\" id=\"email\" name=\"email\" formControlName=\"email\">\r\n          <md-hint *ngIf=\"registerForm.controls.email.touched&&errorMessageForEmail()\" class=\"error-message\" align=\"start\">{{errorMessageForEmail()}}</md-hint>\r\n        </md-input-container>\r\n        <md-input-container>\r\n          <input mdInput placeholder=\"Password\" type=\"password\" id=\"password\" name=\"password\" formControlName=\"password\">\r\n          <md-hint *ngIf=\"registerForm.controls.password.touched&&errorMessageForPassword()\" class=\"error-message\" align=\"start\">{{errorMessageForPassword()}}</md-hint>\r\n        </md-input-container>\r\n        <md-input-container>\r\n          <input mdInput placeholder=\"Confirm Password\" type=\"password\" id=\"password\" name=\"password\" formControlName=\"confirmPassword\">\r\n          <md-hint *ngIf=\"registerForm.controls.confirmPassword.touched&&errorMessageForConfirmPassword()\" class=\"error-message\" align=\"start\">{{errorMessageForConfirmPassword()}}</md-hint>\r\n        </md-input-container>\r\n        <button md-raised-button color=\"primary\" type=\"submit\" [disabled]=\"!registerForm.valid\">Register</button>\r\n        <button md-button color=\"primary\" type=\"button\" routerLink=\"/account/login\">Back To Login</button>\r\n      </form>\r\n    </md-card-content>\r\n  </md-card>\r\n</div>"
 
 /***/ }),
 
 /***/ 1059:
 /***/ (function(module, exports) {
 
-module.exports = "<div fx-layout-wrap>\n  <md-card class=\"example-card\">\n    <img md-card-image src=\"{{videoCard.image}}\" (click)=\"getDetail(videoCard.id)\">\n    <md-card-content>\n      <p> {{videoCard.description | truncate:100}}</p>\n      <div layout=\"row\" layoutXs=\"column\">\n        <div><i class=\"material-icons\">timer</i></div>\n        <div style=\"margin-top: 5px;\">{{lastSeen | amTimeAgo}}</div>\n</div>\n</md-card-content>\n<hr/>\n<md-card-actions>\n  <app-card-footer [buttons]=\"videosButtonBar\" [videoId]=\"videoCard.id\"></app-card-footer>\n</md-card-actions>\n</md-card>\n</div>"
+module.exports = "<h1>Admin Component</h1>\r\n<router-outlet></router-outlet>"
 
 /***/ }),
 
 /***/ 1060:
 /***/ (function(module, exports) {
 
-module.exports = "<hr/>\n"
+module.exports = "<p>\r\n  dashboard works!\r\n</p>\r\n"
 
 /***/ }),
 
 /***/ 1061:
 /***/ (function(module, exports) {
 
-module.exports = "<md-toolbar color=\"primary\">\n  <md-icon routerLink=\"/home/videos\" style=\"cursor: pointer\">home</md-icon>\n  <a md-button routerLink=\"/home/videos\">Video Gallary</a>\n  <div class=\"search-box\">\n    <input type=\"text\" placeholder=\"Search\" class=\"search-box-textbox\" [(ngModel)]=\"searchString\" />\n    <button md-button (click)=\"searchVideos()\" [disabled]=\"!searchString\"><i class=\"material-icons\">search</i></button>\n</div>\n<md-icon>account_circle\n</md-icon>\n<button md-button [mdMenuTriggerFor]=\"menu\" align=\"end\">Hello Member!</button>\n<md-menu #menu=\"mdMenu\">\n  <button md-menu-item routerLink=\"/admin/dashboard\">My Dashboard</button>\n  <button md-menu-item routerLink=\"/account/login\">Logout</button>\n</md-menu>\n</md-toolbar>\n"
+module.exports = "<ng-progress [showSpinner]=\"false\"></ng-progress>\r\n<router-outlet></router-outlet>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 
 /***/ }),
 
 /***/ 1062:
 /***/ (function(module, exports) {
 
-module.exports = "<h2>Page Not Found</h2>"
+module.exports = " <img src=\"{{imageSrc}}\" alt=\"app-icon\" class=\"app-icon\">"
 
 /***/ }),
 
 /***/ 1063:
 /***/ (function(module, exports) {
 
-module.exports = "<vg-player>\n    <vg-overlay-play></vg-overlay-play>\n\n    <vg-scrub-bar>\n        <vg-scrub-bar-current-time></vg-scrub-bar-current-time>\n        <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>\n    </vg-scrub-bar>\n\n    <vg-controls>\n        <vg-play-pause></vg-play-pause>\n\n        <vg-time-display vgProperty=\"current\" vgFormat=\"mm:ss\"></vg-time-display>\n\n        <vg-scrub-bar style=\"pointer-events: none;\"></vg-scrub-bar>\n\n<vg-time-display vgProperty=\"left\" vgFormat=\"mm:ss\"></vg-time-display>\n<vg-time-display vgProperty=\"total\" vgFormat=\"mm:ss\"></vg-time-display>\n\n<vg-mute></vg-mute>\n\n<vg-fullscreen></vg-fullscreen>\n</vg-controls>\n\n<video vgMedia id=\"singleVideo\" preload=\"auto\">\n    <!--<source src=\"http://static.videogular.com/assets/videos/videogular.mp4\" type=\"video/mp4\">-->\n    <source src=\"assets/video-test.mp4\">\n</video>\n</vg-player>\n\n\n"
+module.exports = "<div  fxLayout=\"row\" fxLayoutWrap fxLayout.xs=\"column\" fxLayoutAlign=\"space-around center\"> \r\n  <div *ngFor=\"let button of buttons\" flex=\"25\">\r\n    <div class=\"material-icons mdl-badge\" data-badge=\"1\" (click)=\"change(videoId,button.id)\" style=\"cursor: pointer\">{{button.icon}}</div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
 /***/ 1064:
 /***/ (function(module, exports) {
 
-module.exports = "<swiper [config]=\"config\" (indexChange)=\"onIndexChange($event)\" (reachEnd)=\"onReachEnd($event)\">\n  <div *ngFor=\"let videoSlide of videoCards\" class=\"swiper-slide\">\n    <div class=\"parent\" layout=\"column\" flex>\n      <app-card [videoCard]=\"videoSlide\"></app-card>\n    </div>\n  </div>\n</swiper>\n\n"
+module.exports = "<div fx-layout-wrap>\r\n  <md-card class=\"example-card\">\r\n    <img md-card-image src=\"{{videoCard.image}}\" (click)=\"getDetail(videoCard.id)\">\r\n    <md-card-content>\r\n      <p> {{videoCard.description | truncate:100}}</p>\r\n      <div fxLayout=\"row\" fxLayout.xs=\"column\">\r\n        <div><i class=\"material-icons\">timer</i></div>\r\n        <div style=\"margin-top: 5px;\">{{lastSeen | amTimeAgo}}</div>\r\n      </div>\r\n    </md-card-content>\r\n    <hr/>\r\n    <md-card-actions>\r\n      <app-card-footer [buttons]=\"videosButtonBar\" [videoId]=\"videoCard.id\"></app-card-footer>\r\n    </md-card-actions>\r\n  </md-card>\r\n</div>\r\n"
 
 /***/ }),
 
 /***/ 1065:
 /***/ (function(module, exports) {
 
-module.exports = "<!--<md-grid-list cols=\"{{itemPerColumn}}\" rowHeight=\"700px\" gutterSize=\"20px\">\n  <md-grid-tile *ngFor=\"let video of videos\">\n    <div>\n      <app-card [videoCard]=\"video\"></app-card>\n    </div>\n  </md-grid-tile>\n</md-grid-list>-->\n\n<!--<div layout=\"row\">\n  <div *ngFor=\"let video of videos\">\n    <app-card [videoCard]=\"video\"></app-card>\n  </div>\n</div>-->\n\n\n<md-grid-list cols=\"{{itemPerColumn}}\" gutterSize=\"30px\"  rowHeight=\"700px\">\n  <md-grid-tile *ngFor=\"let video of videos\">\n      <app-card [videoCard]=\"video\"></app-card>\n  </md-grid-tile>\n</md-grid-list>\n  \n\n  \n\n"
+module.exports = "<hr/>\r\n"
 
 /***/ }),
 
 /***/ 1066:
 /***/ (function(module, exports) {
 
-module.exports = "<app-nav></app-nav>\n<div>\n  <h2><span>\n    Collection Name</span>\n   <app-card-footer [buttons]=\"buttons\" style=\"float: right\"></app-card-footer>\n  </h2>\n</div>\n<p>text 1</p>\n<p>text 2</p>\n<app-video-grid [videos]=\"collections\" [itemPerColumn]=\"4\"></app-video-grid>\n<a md-raised-button routerLink=\".\" color=\"primary\" style=\"width:100%;margin-top:20px\" (click)=\"loadMoreCollections()\">Load More</a>"
+module.exports = "<md-toolbar color=\"primary\">\r\n  <md-icon routerLink=\"/home/videos\" style=\"cursor: pointer\">home</md-icon>\r\n  <a md-button routerLink=\"/home/videos\">Video Gallary</a>\r\n  <div class=\"search-box\">\r\n    <input type=\"text\" placeholder=\"Search\" class=\"search-box-textbox\" [(ngModel)]=\"searchString\" />\r\n    <button md-button (click)=\"searchVideos()\" [disabled]=\"!searchString\"><i class=\"material-icons\">search</i></button>\r\n</div>\r\n<md-icon>account_circle\r\n</md-icon>\r\n<button md-button [mdMenuTriggerFor]=\"menu\" align=\"end\">Hello Member!</button>\r\n<md-menu #menu=\"mdMenu\">\r\n  <button md-menu-item routerLink=\"/admin/dashboard\">My Dashboard</button>\r\n  <button md-menu-item routerLink=\"/account/login\">Logout</button>\r\n</md-menu>\r\n</md-toolbar>\r\n"
 
 /***/ }),
 
 /***/ 1067:
 /***/ (function(module, exports) {
 
-module.exports = "<app-nav></app-nav>\r\n<router-outlet></router-outlet>\r\n\r\n\r\n"
+module.exports = "<h2>Page Not Found</h2>"
 
 /***/ }),
 
 /***/ 1068:
 /***/ (function(module, exports) {
 
-module.exports = "<md-tab-group [(selectedIndex)]=\"selectedIndex\" (selectChange)=\"getData()\">\n  <md-tab label=\"Latest\" disabled></md-tab>\n  <md-tab label=\"Videos\">\n    <app-swiper [videos]=\"videos\" *ngIf=\"selectedIndex==1&&showSpinner==false?true:false\"></app-swiper>\n    <md-spinner *ngIf=\"showSpinner\" style=\"margin:0 auto\"></md-spinner>\n</md-tab>\n<md-tab label=\"Collection\">\n  <app-swiper [videos]=\"collections\" *ngIf=\"selectedIndex==2&&showSpinner==false?true:false\"></app-swiper>\n  <md-spinner *ngIf=\"showSpinner\" style=\"margin: 0 auto\"></md-spinner>\n</md-tab>\n</md-tab-group>"
+module.exports = "<vg-player>\r\n    <vg-overlay-play></vg-overlay-play>\r\n\r\n    <vg-scrub-bar>\r\n        <vg-scrub-bar-current-time></vg-scrub-bar-current-time>\r\n        <vg-scrub-bar-buffering-time></vg-scrub-bar-buffering-time>\r\n    </vg-scrub-bar>\r\n\r\n    <vg-controls>\r\n        <vg-play-pause></vg-play-pause>\r\n\r\n        <vg-time-display vgProperty=\"current\" vgFormat=\"mm:ss\"></vg-time-display>\r\n\r\n        <vg-scrub-bar style=\"pointer-events: none;\"></vg-scrub-bar>\r\n\r\n<vg-time-display vgProperty=\"left\" vgFormat=\"mm:ss\"></vg-time-display>\r\n<vg-time-display vgProperty=\"total\" vgFormat=\"mm:ss\"></vg-time-display>\r\n\r\n<vg-mute></vg-mute>\r\n\r\n<vg-fullscreen></vg-fullscreen>\r\n</vg-controls>\r\n\r\n<video vgMedia id=\"singleVideo\" preload=\"auto\">\r\n    <!--<source src=\"http://static.videogular.com/assets/videos/videogular.mp4\" type=\"video/mp4\">-->\r\n    <source src=\"assets/video-test.mp4\">\r\n</video>\r\n</vg-player>\r\n\r\n\r\n"
 
 /***/ }),
 
 /***/ 1069:
 /***/ (function(module, exports) {
 
-module.exports = "<md-tab-group [(selectedIndex)]=\"selectedIndex\" (selectChange)=\"getData()\">\n  <md-tab label=\"Popular\" disabled></md-tab>\n  <md-tab label=\"Videos\">\n    <app-swiper [videos]=\"videos\" *ngIf=\"selectedIndex==1&&showSpinner==false?true:false\"></app-swiper>\n    <md-spinner *ngIf=\"showSpinner\" style=\"margin:0 auto;\" ></md-spinner>\n</md-tab>\n<md-tab label=\"Collection\">\n  <app-swiper [videos]=\"collections\" *ngIf=\"selectedIndex==2&&showSpinner==false?true:false\"></app-swiper>\n  <md-spinner *ngIf=\"showSpinner\" style=\"margin:0 auto;\" ></md-spinner>\n</md-tab>\n</md-tab-group>"
+module.exports = "<swiper [config]=\"config\" (indexChange)=\"onIndexChange($event)\" (reachEnd)=\"onReachEnd($event)\">\r\n  <div *ngFor=\"let videoSlide of videoCards\" class=\"swiper-slide\">\r\n    <div class=\"parent\" layout=\"column\" flex>\r\n      <app-card [videoCard]=\"videoSlide\"></app-card>\r\n    </div>\r\n  </div>\r\n</swiper>\r\n\r\n"
 
 /***/ }),
 
 /***/ 1070:
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <h4><span>\n    Related Videos</span>\n    <i class=\"material-icons\" style=\"float: right\">comment</i>\n</h4>\n</div>\n<app-horizontal-bar></app-horizontal-bar>\n<app-swiper [videos]=\"relatedVideos\"></app-swiper>\n<app-horizontal-bar></app-horizontal-bar>"
+module.exports = "<md-grid-list cols=\"{{itemPerColumn}}\" gutterSize=\"30px\"  rowHeight=\"700px\">\r\n  <md-grid-tile *ngFor=\"let video of videos\">\r\n      <app-card [videoCard]=\"video\"></app-card>\r\n  </md-grid-tile>\r\n</md-grid-list>\r\n  \r\n\r\n  \r\n\r\n"
 
 /***/ }),
 
 /***/ 1071:
 /***/ (function(module, exports) {
 
-module.exports = "<md-tab-group [(selectedIndex)]=\"selectedIndex\" (selectChange)=\"tabChange()\">\n  <md-tab label=\"Videos(15)\">\n    <app-video-grid [videos]=\"videos\" [itemPerColumn]=\"4\"></app-video-grid>\n    <a md-raised-button routerLink=\".\" color=\"primary\" style=\"width:100%;margin-top:20px\" (click)=\"loadMoreVideos()\">Load More</a>\n  </md-tab>\n  <md-tab label=\"collections(5)\">\n    <app-video-grid [videos]=\"collections\" [itemPerColumn]=\"4\"></app-video-grid>\n    <a md-raised-button routerLink=\".\" color=\"primary\" style=\"width:100%;margin-top:20px\" (click)=\"loadMoreColections()\">Load More</a>\n  </md-tab>\n</md-tab-group>"
+module.exports = "<app-nav></app-nav>\r\n<div>\r\n  <h2><span>\r\n    Collection Name</span>\r\n   <app-card-footer [buttons]=\"buttons\" style=\"float: right\"></app-card-footer>\r\n  </h2>\r\n</div>\r\n<p>text 1</p>\r\n<p>text 2</p>\r\n<app-video-grid [videos]=\"collections\" [itemPerColumn]=\"4\"></app-video-grid>\r\n<a md-raised-button routerLink=\".\" color=\"primary\" style=\"width:100%;margin-top:20px\" (click)=\"loadMoreCollections()\">Load More</a>"
 
 /***/ }),
 
 /***/ 1072:
 /***/ (function(module, exports) {
 
-module.exports = "<div layout=\"row\">\n  <div style=\"margin-left: 20px;margin-top:20px\" flex=\"50\">\n    <app-single-media-player ></app-single-media-player>\n  </div>\n  <div style=\"margin-left: 20px\">\n    <h3>Collection Name</h3>\n    <app-card-footer [buttons]=\"videosButtonBar\" [videoId]=\"id\"></app-card-footer>\n    <p>text1</p>\n    <p>text1</p>\n  </div>\n</div>\n<app-related-video-component [relatedVideos]=\"relatedVideos\"></app-related-video-component>\n\n\n\n"
+module.exports = "<app-nav></app-nav>\r\n<router-outlet></router-outlet>\r\n\r\n\r\n"
 
 /***/ }),
 
 /***/ 1073:
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <h1><span>\n    Welcome to Video Gallary </span>\n    <button md-raised-button class=\"button-right\">Uplaod Video</button>\n  </h1>\n</div>"
+module.exports = "<md-tab-group [(selectedIndex)]=\"selectedIndex\" (selectChange)=\"getData()\">\r\n  <md-tab label=\"Latest\" disabled></md-tab>\r\n  <md-tab label=\"Videos\">\r\n    <app-swiper [videos]=\"videos\" *ngIf=\"selectedIndex==1&&showSpinner==false?true:false\"></app-swiper>\r\n    <md-spinner *ngIf=\"showSpinner\" style=\"margin:0 auto\"></md-spinner>\r\n</md-tab>\r\n<md-tab label=\"Collection\">\r\n  <app-swiper [videos]=\"collections\" *ngIf=\"selectedIndex==2&&showSpinner==false?true:false\"></app-swiper>\r\n  <md-spinner *ngIf=\"showSpinner\" style=\"margin: 0 auto\"></md-spinner>\r\n</md-tab>\r\n</md-tab-group>"
 
 /***/ }),
 
 /***/ 1074:
 /***/ (function(module, exports) {
 
-module.exports = "<app-latest-videos-list></app-latest-videos-list>\n<app-horizontal-bar></app-horizontal-bar>\n<app-popular-videos-list></app-popular-videos-list>\n\n\n \n\n"
+module.exports = "<md-tab-group [(selectedIndex)]=\"selectedIndex\" (selectChange)=\"getData()\">\r\n  <md-tab label=\"Popular\" disabled></md-tab>\r\n  <md-tab label=\"Videos\">\r\n    <app-swiper [videos]=\"videos\" *ngIf=\"selectedIndex==1&&showSpinner==false?true:false\"></app-swiper>\r\n    <md-spinner *ngIf=\"showSpinner\" style=\"margin:0 auto;\" ></md-spinner>\r\n</md-tab>\r\n<md-tab label=\"Collection\">\r\n  <app-swiper [videos]=\"collections\" *ngIf=\"selectedIndex==2&&showSpinner==false?true:false\"></app-swiper>\r\n  <md-spinner *ngIf=\"showSpinner\" style=\"margin:0 auto;\" ></md-spinner>\r\n</md-tab>\r\n</md-tab-group>"
 
 /***/ }),
 
-/***/ 1149:
+/***/ 1075:
+/***/ (function(module, exports) {
+
+module.exports = "<div>\r\n  <h4><span>\r\n    Related Videos</span>\r\n    <i class=\"material-icons\" style=\"float: right\">comment</i>\r\n</h4>\r\n</div>\r\n<app-horizontal-bar></app-horizontal-bar>\r\n<app-swiper [videos]=\"relatedVideos\"></app-swiper>\r\n<app-horizontal-bar></app-horizontal-bar>"
+
+/***/ }),
+
+/***/ 1076:
+/***/ (function(module, exports) {
+
+module.exports = "<md-tab-group [(selectedIndex)]=\"selectedIndex\" (selectChange)=\"tabChange()\">\r\n  <md-tab label=\"Videos(15)\">\r\n    <app-video-grid [videos]=\"videos\" [itemPerColumn]=\"4\"></app-video-grid>\r\n    <a md-raised-button routerLink=\".\" color=\"primary\" style=\"width:100%;margin-top:20px\" (click)=\"loadMoreVideos()\">Load More</a>\r\n  </md-tab>\r\n  <md-tab label=\"collections(5)\">\r\n    <app-video-grid [videos]=\"collections\" [itemPerColumn]=\"4\"></app-video-grid>\r\n    <a md-raised-button routerLink=\".\" color=\"primary\" style=\"width:100%;margin-top:20px\" (click)=\"loadMoreColections()\">Load More</a>\r\n  </md-tab>\r\n</md-tab-group>"
+
+/***/ }),
+
+/***/ 1077:
+/***/ (function(module, exports) {
+
+module.exports = "<div fxLayout=\"row\">\r\n  <div style=\"margin-left: 20px;margin-top:20px\" fxFlex=\"50\">\r\n    <app-single-media-player ></app-single-media-player>\r\n  </div>\r\n  <div style=\"margin-left: 20px\">\r\n    <h3>Collection Name</h3>\r\n    <app-card-footer [buttons]=\"videosButtonBar\" [videoId]=\"id\"></app-card-footer>\r\n    <p>text1</p>\r\n    <p>text1</p>\r\n  </div>\r\n</div>\r\n<app-related-video-component [relatedVideos]=\"relatedVideos\"></app-related-video-component>\r\n\r\n"
+
+/***/ }),
+
+/***/ 1078:
+/***/ (function(module, exports) {
+
+module.exports = "<div>\r\n  <h1><span>\r\n    Welcome to Video Gallary </span>\r\n    <button md-raised-button class=\"button-right\">Uplaod Video</button>\r\n  </h1>\r\n</div>"
+
+/***/ }),
+
+/***/ 1079:
+/***/ (function(module, exports) {
+
+module.exports = "<app-latest-videos-list></app-latest-videos-list>\r\n<app-horizontal-bar></app-horizontal-bar>\r\n<app-popular-videos-list></app-popular-videos-list>\r\n\r\n\r\n \r\n\r\n"
+
+/***/ }),
+
+/***/ 1154:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(667);
+module.exports = __webpack_require__(672);
 
 
 /***/ }),
@@ -842,13 +856,16 @@ module.exports = __webpack_require__(667);
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mock_videos__ = __webpack_require__(488);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mock_videos__ = __webpack_require__(484);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideoService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -862,12 +879,12 @@ var VideoService = (function () {
     VideoService.prototype.getCollections = function () {
         return Promise.resolve(__WEBPACK_IMPORTED_MODULE_1__mock_videos__["b" /* COLLECTIONS */]);
     };
+    VideoService = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(), 
+        __metadata('design:paramtypes', [])
+    ], VideoService);
     return VideoService;
 }());
-VideoService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])()
-], VideoService);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/video.service.js.map
 
 /***/ }),
@@ -895,7 +912,7 @@ var ButtonBar;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_progressbar__ = __webpack_require__(646);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_progressbar__ = __webpack_require__(651);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoaderService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -918,14 +935,13 @@ var LoaderService = (function () {
     LoaderService.prototype.completeLoading = function () {
         this.ngProgressService.done();
     };
+    LoaderService = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ng2_progressbar__["b" /* NgProgressService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1_ng2_progressbar__["b" /* NgProgressService */]) === 'function' && _a) || Object])
+    ], LoaderService);
     return LoaderService;
+    var _a;
 }());
-LoaderService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ng2_progressbar__["b" /* NgProgressService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ng2_progressbar__["b" /* NgProgressService */]) === "function" && _a || Object])
-], LoaderService);
-
-var _a;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/loader.service.js.map
 
 /***/ }),
@@ -944,6 +960,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 var APIConfiguration = (function () {
     function APIConfiguration() {
@@ -952,12 +971,12 @@ var APIConfiguration = (function () {
         this.TokenUrl = this.ServerPath + 'token';
         this.ServerWithApiUrl = this.ServerPath + this.ApiUrl;
     }
+    APIConfiguration = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(), 
+        __metadata('design:paramtypes', [])
+    ], APIConfiguration);
     return APIConfiguration;
 }());
-APIConfiguration = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])()
-], APIConfiguration);
-
 var RegularExpr = (function () {
     function RegularExpr() {
         this.emailRegx = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
@@ -965,19 +984,17 @@ var RegularExpr = (function () {
     }
     return RegularExpr;
 }());
-
 var AppDefaults = (function () {
     function AppDefaults() {
         this.imageSourc = "assets/image/appicon.png";
     }
     return AppDefaults;
 }());
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/app.constants.js.map
 
 /***/ }),
 
-/***/ 477:
+/***/ 473:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -996,22 +1013,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var AccountComponent = (function () {
     function AccountComponent() {
     }
+    AccountComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-account',
+            template: __webpack_require__(1055),
+            styles: [__webpack_require__(1025)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AccountComponent);
     return AccountComponent;
 }());
-AccountComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-account',
-        template: __webpack_require__(1050),
-        styles: [__webpack_require__(1020)]
-    }),
-    __metadata("design:paramtypes", [])
-], AccountComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/account.component.js.map
 
 /***/ }),
 
-/***/ 478:
+/***/ 474:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1034,30 +1050,29 @@ var ForgotPasswordComponent = (function () {
     ForgotPasswordComponent.prototype.forgotPassword = function () {
         console.log(this.user);
     };
+    ForgotPasswordComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-forgot-password',
+            template: __webpack_require__(1056),
+            styles: [__webpack_require__(1026)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], ForgotPasswordComponent);
     return ForgotPasswordComponent;
 }());
-ForgotPasswordComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-forgot-password',
-        template: __webpack_require__(1051),
-        styles: [__webpack_require__(1021)]
-    }),
-    __metadata("design:paramtypes", [])
-], ForgotPasswordComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/forgot-password.component.js.map
 
 /***/ }),
 
-/***/ 479:
+/***/ 475:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_material__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(48);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1092,23 +1107,22 @@ var LoginComponent = (function () {
         console.log(this.user);
         this.router.navigate(['/home']);
     };
+    LoginComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-login',
+            template: __webpack_require__(1057),
+            styles: [__webpack_require__(1027)]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__["a" /* LoaderService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__["a" /* LoaderService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* Router */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* Router */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_material__["b" /* MdIconRegistry */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_material__["b" /* MdIconRegistry */]) === 'function' && _c) || Object, (typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DomSanitizer */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DomSanitizer */]) === 'function' && _d) || Object])
+    ], LoginComponent);
     return LoginComponent;
+    var _a, _b, _c, _d;
 }());
-LoginComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-login',
-        template: __webpack_require__(1052),
-        styles: [__webpack_require__(1022)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__["a" /* LoaderService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__["a" /* LoaderService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_material__["b" /* MdIconRegistry */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_material__["b" /* MdIconRegistry */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _d || Object])
-], LoginComponent);
-
-var _a, _b, _c, _d;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/login.component.js.map
 
 /***/ }),
 
-/***/ 480:
+/***/ 476:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1127,11 +1141,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-//constants
 
-//Validators
 
-//services
 
 var RegisterComponent = (function () {
     function RegisterComponent(formBuilder, regExp, loaderService) {
@@ -1197,23 +1208,22 @@ var RegisterComponent = (function () {
             return 'Password and confirm password do not match';
         }
     };
+    RegisterComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-register',
+            template: __webpack_require__(1058),
+            styles: [__webpack_require__(1028)]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["a" /* RegularExpr */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["a" /* RegularExpr */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_services_loader_service__["a" /* LoaderService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__shared_services_loader_service__["a" /* LoaderService */]) === 'function' && _c) || Object])
+    ], RegisterComponent);
     return RegisterComponent;
+    var _a, _b, _c;
 }());
-RegisterComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-register',
-        template: __webpack_require__(1053),
-        styles: [__webpack_require__(1023)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["a" /* RegularExpr */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["a" /* RegularExpr */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_services_loader_service__["a" /* LoaderService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__shared_services_loader_service__["a" /* LoaderService */]) === "function" && _c || Object])
-], RegisterComponent);
-
-var _a, _b, _c;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/register.component.js.map
 
 /***/ }),
 
-/***/ 481:
+/***/ 477:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1234,21 +1244,20 @@ var AdminComponent = (function () {
     }
     AdminComponent.prototype.ngOnInit = function () {
     };
+    AdminComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-admin',
+            template: __webpack_require__(1059)
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AdminComponent);
     return AdminComponent;
 }());
-AdminComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-admin',
-        template: __webpack_require__(1054)
-    }),
-    __metadata("design:paramtypes", [])
-], AdminComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/admin.component.js.map
 
 /***/ }),
 
-/***/ 482:
+/***/ 478:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1269,22 +1278,21 @@ var DashboardComponent = (function () {
     }
     DashboardComponent.prototype.ngOnInit = function () {
     };
+    DashboardComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-dashboard',
+            template: __webpack_require__(1060),
+            styles: [__webpack_require__(1029)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], DashboardComponent);
     return DashboardComponent;
 }());
-DashboardComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-dashboard',
-        template: __webpack_require__(1055),
-        styles: [__webpack_require__(1024)]
-    }),
-    __metadata("design:paramtypes", [])
-], DashboardComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/dashboard.component.js.map
 
 /***/ }),
 
-/***/ 483:
+/***/ 479:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1296,25 +1304,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 var PageNotFoundComponent = (function () {
     function PageNotFoundComponent() {
     }
+    PageNotFoundComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-not-found',
+            template: __webpack_require__(1067),
+            styles: [__webpack_require__(1036)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], PageNotFoundComponent);
     return PageNotFoundComponent;
 }());
-PageNotFoundComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-not-found',
-        template: __webpack_require__(1062),
-        styles: [__webpack_require__(1031)]
-    })
-], PageNotFoundComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/not-found.component.js.map
 
 /***/ }),
 
-/***/ 484:
+/***/ 480:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1339,8 +1350,7 @@ var CollectionComponent = (function () {
         this.buttons = [
             { icon: 'thumb_up', name: 'thumb_up', id: this.buttonBar.thumb_up },
             { icon: 'message', name: 'comment', id: this.buttonBar.message },
-            { icon: 'home', name: 'share', id: this.buttonBar.home }
-        ];
+            { icon: 'home', name: 'share', id: this.buttonBar.home }];
     }
     CollectionComponent.prototype.ngOnInit = function () {
         this.getCollectionList();
@@ -1359,22 +1369,21 @@ var CollectionComponent = (function () {
         this.collections.push(this.collections[0]);
         this.collections.push(this.collections[1]);
     };
+    CollectionComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-collection',
+            template: __webpack_require__(1071),
+            styles: [__webpack_require__(1040)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], CollectionComponent);
     return CollectionComponent;
 }());
-CollectionComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-collection',
-        template: __webpack_require__(1066),
-        styles: [__webpack_require__(1035)]
-    }),
-    __metadata("design:paramtypes", [])
-], CollectionComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/collection.component.js.map
 
 /***/ }),
 
-/***/ 485:
+/***/ 481:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1395,26 +1404,25 @@ var HomeComponent = (function () {
     }
     HomeComponent.prototype.ngOnInit = function () {
     };
+    HomeComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-home',
+            template: __webpack_require__(1072)
+        }), 
+        __metadata('design:paramtypes', [])
+    ], HomeComponent);
     return HomeComponent;
 }());
-HomeComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-home',
-        template: __webpack_require__(1067)
-    }),
-    __metadata("design:paramtypes", [])
-], HomeComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/home.component.js.map
 
 /***/ }),
 
-/***/ 486:
+/***/ 482:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__videos_video_service__ = __webpack_require__(133);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchVideoComponentComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1457,8 +1465,7 @@ var SearchVideoComponentComponent = (function () {
             { id: 5, image: 'assets/image/image5.jpg', description: 'A Pakistani submarine vanishes under mysterious circumstances.', lastSeen: 1, videoLink: 'videoLink' },
             { id: 2, image: 'assets/image/image2.jpg', description: 'Sultan is a classic underdog tale about a wrestler\'s journey, looking for a comeback by defeating all odds. Will he emerge victorious?', lastSeen: 5, videoLink: 'videoLink' },
             { id: 3, image: 'assets/image/image3.jpg', description: 'When India\'s top batsman goes missing in the Middle East, two mismatched cops must team up for a 36-hour manhunt before the cricket final.', lastSeen: 3, videoLink: 'videoLink' },
-            { id: 7, image: 'assets/image/image7.jpg', description: 'Jolly is a clumsy lawyer who is faced with representing the most critical court case of his career.', lastSeen: 1, videoLink: 'videoLink' }
-        ];
+            { id: 7, image: 'assets/image/image7.jpg', description: 'Jolly is a clumsy lawyer who is faced with representing the most critical court case of his career.', lastSeen: 1, videoLink: 'videoLink' }];
     };
     SearchVideoComponentComponent.prototype.serchCollections = function (searchString) {
         var _this = this;
@@ -1472,29 +1479,28 @@ var SearchVideoComponentComponent = (function () {
         this.collections.push(this.collections[0]);
         this.collections.push(this.collections[1]);
     };
+    SearchVideoComponentComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-search-video-component',
+            template: __webpack_require__(1076),
+            styles: [__webpack_require__(1044)]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__videos_video_service__["a" /* VideoService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__videos_video_service__["a" /* VideoService */]) === 'function' && _b) || Object])
+    ], SearchVideoComponentComponent);
     return SearchVideoComponentComponent;
+    var _a, _b;
 }());
-SearchVideoComponentComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-search-video-component',
-        template: __webpack_require__(1071),
-        styles: [__webpack_require__(1039)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__videos_video_service__["a" /* VideoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__videos_video_service__["a" /* VideoService */]) === "function" && _b || Object])
-], SearchVideoComponentComponent);
-
-var _a, _b;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/search-video-component.component.js.map
 
 /***/ }),
 
-/***/ 487:
+/***/ 483:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_bar_enum__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__videos_video_service__ = __webpack_require__(133);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideoDetailComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1520,8 +1526,7 @@ var VideoDetailComponent = (function () {
             { icon: 'thumb_up', name: 'thumb_up', id: this.buttonBar.thumb_up },
             { icon: 'remove_red_eye', name: 'watch', id: this.buttonBar.remove_red_eye },
             { icon: 'message', name: 'comment', id: this.buttonBar.message },
-            { icon: 'share', name: 'share', id: this.buttonBar.share }
-        ];
+            { icon: 'share', name: 'share', id: this.buttonBar.share }];
         this.id = 1;
     }
     VideoDetailComponent.prototype.ngOnInit = function () {
@@ -1541,23 +1546,22 @@ var VideoDetailComponent = (function () {
     };
     VideoDetailComponent.prototype.getVideoDetail = function (id) {
     };
+    VideoDetailComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-video-detail',
+            template: __webpack_require__(1077),
+            styles: [__webpack_require__(1045)]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__videos_video_service__["a" /* VideoService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__videos_video_service__["a" /* VideoService */]) === 'function' && _b) || Object])
+    ], VideoDetailComponent);
     return VideoDetailComponent;
+    var _a, _b;
 }());
-VideoDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-video-detail',
-        template: __webpack_require__(1072),
-        styles: [__webpack_require__(1040)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__videos_video_service__["a" /* VideoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__videos_video_service__["a" /* VideoService */]) === "function" && _b || Object])
-], VideoDetailComponent);
-
-var _a, _b;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/video-detail.component.js.map
 
 /***/ }),
 
-/***/ 488:
+/***/ 484:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1583,7 +1587,7 @@ var COLLECTIONS = [
 
 /***/ }),
 
-/***/ 489:
+/***/ 485:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1610,22 +1614,21 @@ var VideosComponent = (function () {
     }
     VideosComponent.prototype.ngOnInit = function () {
     };
+    VideosComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-videos',
+            template: __webpack_require__(1079),
+            styles: [__webpack_require__(1047)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], VideosComponent);
     return VideosComponent;
 }());
-VideosComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-videos',
-        template: __webpack_require__(1074),
-        styles: [__webpack_require__(1042)]
-    }),
-    __metadata("design:paramtypes", [])
-], VideosComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/videos.component.js.map
 
 /***/ }),
 
-/***/ 490:
+/***/ 486:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1638,27 +1641,30 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 var SharedModule = (function () {
     function SharedModule() {
     }
+    SharedModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [],
+            declarations: [],
+            exports: [],
+            providers: [__WEBPACK_IMPORTED_MODULE_1__services_loader_service__["a" /* LoaderService */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], SharedModule);
     return SharedModule;
 }());
-SharedModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [],
-        declarations: [],
-        exports: [],
-        providers: [__WEBPACK_IMPORTED_MODULE_1__services_loader_service__["a" /* LoaderService */]]
-    })
-], SharedModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/shared.module.js.map
 
 /***/ }),
 
-/***/ 666:
+/***/ 671:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -1667,21 +1673,21 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 666;
+webpackEmptyContext.id = 671;
 
 
 /***/ }),
 
-/***/ 667:
+/***/ 672:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(861);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(807);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(866);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(812);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(860);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_app_module__ = __webpack_require__(842);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(865);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_app_module__ = __webpack_require__(847);
 
 
 
@@ -1695,27 +1701,30 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 837:
+/***/ 842:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__account_component__ = __webpack_require__(477);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login_component__ = __webpack_require__(479);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__register_register_component__ = __webpack_require__(480);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__forgot_password_forgot_password_component__ = __webpack_require__(478);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__account_routes__ = __webpack_require__(838);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__account_component__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login_component__ = __webpack_require__(475);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__register_register_component__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__forgot_password_forgot_password_component__ = __webpack_require__(474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__account_routes__ = __webpack_require__(843);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_material__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__constants_app_constants__ = __webpack_require__(288);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_app_icon_app_icon_component__ = __webpack_require__(844);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_app_icon_app_icon_component__ = __webpack_require__(849);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccountModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -1724,52 +1733,52 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-//account module routes
 
-//material
 
-//constants
 
 
 var AccountModule = (function () {
     function AccountModule() {
     }
+    AccountModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* ReactiveFormsModule */],
+                __WEBPACK_IMPORTED_MODULE_8__angular_material__["a" /* MaterialModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_7__account_routes__["a" /* AccountRoutingModule */]
+            ],
+            declarations: [__WEBPACK_IMPORTED_MODULE_3__account_component__["a" /* AccountComponent */], __WEBPACK_IMPORTED_MODULE_4__login_login_component__["a" /* LoginComponent */], __WEBPACK_IMPORTED_MODULE_5__register_register_component__["a" /* RegisterComponent */], __WEBPACK_IMPORTED_MODULE_6__forgot_password_forgot_password_component__["a" /* ForgotPasswordComponent */], __WEBPACK_IMPORTED_MODULE_10__components_app_icon_app_icon_component__["a" /* AppIconComponent */]],
+            providers: [__WEBPACK_IMPORTED_MODULE_9__constants_app_constants__["a" /* RegularExpr */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AccountModule);
     return AccountModule;
 }());
-AccountModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
-            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* ReactiveFormsModule */],
-            __WEBPACK_IMPORTED_MODULE_8__angular_material__["a" /* MaterialModule */].forRoot(),
-            __WEBPACK_IMPORTED_MODULE_7__account_routes__["a" /* AccountRoutingModule */]
-        ],
-        declarations: [__WEBPACK_IMPORTED_MODULE_3__account_component__["a" /* AccountComponent */], __WEBPACK_IMPORTED_MODULE_4__login_login_component__["a" /* LoginComponent */], __WEBPACK_IMPORTED_MODULE_5__register_register_component__["a" /* RegisterComponent */], __WEBPACK_IMPORTED_MODULE_6__forgot_password_forgot_password_component__["a" /* ForgotPasswordComponent */], __WEBPACK_IMPORTED_MODULE_10__components_app_icon_app_icon_component__["a" /* AppIconComponent */]],
-        providers: [__WEBPACK_IMPORTED_MODULE_9__constants_app_constants__["a" /* RegularExpr */]]
-    })
-], AccountModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/account.module.js.map
 
 /***/ }),
 
-/***/ 838:
+/***/ 843:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__account_component__ = __webpack_require__(477);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login_component__ = __webpack_require__(479);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_register_component__ = __webpack_require__(480);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__forgot_password_forgot_password_component__ = __webpack_require__(478);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__account_component__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login_component__ = __webpack_require__(475);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_register_component__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__forgot_password_forgot_password_component__ = __webpack_require__(474);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccountRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -1791,34 +1800,37 @@ var accountRoutes = [
 var AccountRoutingModule = (function () {
     function AccountRoutingModule() {
     }
+    AccountRoutingModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(accountRoutes)],
+            exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AccountRoutingModule);
     return AccountRoutingModule;
 }());
-AccountRoutingModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(accountRoutes)],
-        exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
-    })
-], AccountRoutingModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/account.routes.js.map
 
 /***/ }),
 
-/***/ 839:
+/***/ 844:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__admin_routes__ = __webpack_require__(840);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__admin_component__ = __webpack_require__(481);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__admin_routes__ = __webpack_require__(845);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__admin_component__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__ = __webpack_require__(478);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdminModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -1828,36 +1840,39 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var AdminModule = (function () {
     function AdminModule() {
     }
+    AdminModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
+                __WEBPACK_IMPORTED_MODULE_2__admin_routes__["a" /* AdminRoutingModule */]
+            ],
+            declarations: [__WEBPACK_IMPORTED_MODULE_3__admin_component__["a" /* AdminComponent */], __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__["a" /* DashboardComponent */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AdminModule);
     return AdminModule;
 }());
-AdminModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
-            __WEBPACK_IMPORTED_MODULE_2__admin_routes__["a" /* AdminRoutingModule */]
-        ],
-        declarations: [__WEBPACK_IMPORTED_MODULE_3__admin_component__["a" /* AdminComponent */], __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__["a" /* DashboardComponent */]]
-    })
-], AdminModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/admin.module.js.map
 
 /***/ }),
 
-/***/ 840:
+/***/ 845:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__admin_component__ = __webpack_require__(481);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard_dashboard_component__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__admin_component__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard_dashboard_component__ = __webpack_require__(478);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdminRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -1875,20 +1890,20 @@ var adminRoutes = [
 var AdminRoutingModule = (function () {
     function AdminRoutingModule() {
     }
+    AdminRoutingModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(adminRoutes)],
+            exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AdminRoutingModule);
     return AdminRoutingModule;
 }());
-AdminRoutingModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(adminRoutes)],
-        exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
-    })
-], AdminRoutingModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/admin.routes.js.map
 
 /***/ }),
 
-/***/ 841:
+/***/ 846:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1900,40 +1915,43 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 var AppComponent = (function () {
     function AppComponent() {
     }
+    AppComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-root',
+            template: __webpack_require__(1061),
+            styles: [__webpack_require__(1030)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppComponent);
     return AppComponent;
 }());
-AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-root',
-        template: __webpack_require__(1056),
-        styles: [__webpack_require__(1025)]
-    })
-], AppComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/app.component.js.map
 
 /***/ }),
 
-/***/ 842:
+/***/ 847:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(841);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_routes__ = __webpack_require__(843);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(846);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_routes__ = __webpack_require__(848);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__account_account_module__ = __webpack_require__(837);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__admin_admin_module__ = __webpack_require__(839);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__home_home_module__ = __webpack_require__(854);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__shared_shared_module__ = __webpack_require__(490);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ng2_progressbar__ = __webpack_require__(646);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_not_found_not_found_component__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__account_account_module__ = __webpack_require__(842);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__admin_admin_module__ = __webpack_require__(844);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__home_home_module__ = __webpack_require__(859);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__shared_shared_module__ = __webpack_require__(486);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ng2_progressbar__ = __webpack_require__(651);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_not_found_not_found_component__ = __webpack_require__(479);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1941,15 +1959,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 
 
-//root routing
 
-//angular 2 material
 
-//components
 
 
 
@@ -1959,47 +1977,50 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var AppModule = (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_11__components_not_found_not_found_component__["a" /* PageNotFoundComponent */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_common__["CommonModule"],
+                __WEBPACK_IMPORTED_MODULE_5__angular_material__["a" /* MaterialModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_10_ng2_progressbar__["a" /* NgProgressModule */],
+                __WEBPACK_IMPORTED_MODULE_9__shared_shared_module__["a" /* SharedModule */],
+                __WEBPACK_IMPORTED_MODULE_7__admin_admin_module__["a" /* AdminModule */],
+                __WEBPACK_IMPORTED_MODULE_6__account_account_module__["a" /* AccountModule */],
+                __WEBPACK_IMPORTED_MODULE_8__home_home_module__["a" /* HomeModule */],
+                __WEBPACK_IMPORTED_MODULE_4__app_routes__["a" /* AppRoutingModule */]
+            ],
+            providers: [],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
-        declarations: [
-            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__components_not_found_not_found_component__["a" /* PageNotFoundComponent */]
-        ],
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_common__["CommonModule"],
-            __WEBPACK_IMPORTED_MODULE_5__angular_material__["a" /* MaterialModule */].forRoot(),
-            __WEBPACK_IMPORTED_MODULE_10_ng2_progressbar__["a" /* NgProgressModule */],
-            __WEBPACK_IMPORTED_MODULE_9__shared_shared_module__["a" /* SharedModule */],
-            __WEBPACK_IMPORTED_MODULE_7__admin_admin_module__["a" /* AdminModule */],
-            __WEBPACK_IMPORTED_MODULE_6__account_account_module__["a" /* AccountModule */],
-            __WEBPACK_IMPORTED_MODULE_8__home_home_module__["a" /* HomeModule */],
-            __WEBPACK_IMPORTED_MODULE_4__app_routes__["a" /* AppRoutingModule */]
-        ],
-        providers: [],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
-    })
-], AppModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/app.module.js.map
 
 /***/ }),
 
-/***/ 843:
+/***/ 848:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_not_found_not_found_component__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_not_found_not_found_component__ = __webpack_require__(479);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -2011,24 +2032,24 @@ var routes = [
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
     }
+    AppRoutingModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forRoot(routes)
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]
+            ]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppRoutingModule);
     return AppRoutingModule;
 }());
-AppRoutingModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forRoot(routes)
-        ],
-        exports: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]
-        ]
-    })
-], AppRoutingModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/app.routes.js.map
 
 /***/ }),
 
-/***/ 844:
+/***/ 849:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2051,24 +2072,23 @@ var AppIconComponent = (function () {
         this.appDefaults = appDefaults;
         this.imageSrc = appDefaults.imageSourc;
     }
+    AppIconComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-app-icon',
+            template: __webpack_require__(1062),
+            styles: [__webpack_require__(1031)],
+            providers: [__WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["b" /* AppDefaults */]]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["b" /* AppDefaults */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["b" /* AppDefaults */]) === 'function' && _a) || Object])
+    ], AppIconComponent);
     return AppIconComponent;
+    var _a;
 }());
-AppIconComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-app-icon',
-        template: __webpack_require__(1057),
-        styles: [__webpack_require__(1026)],
-        providers: [__WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["b" /* AppDefaults */]]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["b" /* AppDefaults */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__constants_app_constants__["b" /* AppDefaults */]) === "function" && _a || Object])
-], AppIconComponent);
-
-var _a;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/app-icon.component.js.map
 
 /***/ }),
 
-/***/ 845:
+/***/ 850:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2108,35 +2128,34 @@ var CardFooterComponent = (function () {
                 break;
         }
     };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Object)
+    ], CardFooterComponent.prototype, "buttons", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Object)
+    ], CardFooterComponent.prototype, "videoId", void 0);
+    CardFooterComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-card-footer',
+            template: __webpack_require__(1063),
+            styles: [__webpack_require__(1032)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], CardFooterComponent);
     return CardFooterComponent;
 }());
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Object)
-], CardFooterComponent.prototype, "buttons", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Object)
-], CardFooterComponent.prototype, "videoId", void 0);
-CardFooterComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-card-footer',
-        template: __webpack_require__(1058),
-        styles: [__webpack_require__(1027)]
-    }),
-    __metadata("design:paramtypes", [])
-], CardFooterComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/card-footer.component.js.map
 
 /***/ }),
 
-/***/ 846:
+/***/ 851:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_bar_enum__ = __webpack_require__(193);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2160,14 +2179,12 @@ var CardComponent = (function () {
             { icon: 'thumb_up', name: 'thumb_up', id: this.buttonBar.thumb_up },
             { icon: 'remove_red_eye', name: 'watch', id: this.buttonBar.remove_red_eye },
             { icon: 'message', name: 'comment', id: this.buttonBar.message },
-            { icon: 'share', name: 'share', id: this.buttonBar.share }
-        ];
+            { icon: 'share', name: 'share', id: this.buttonBar.share }];
         this.collectionsButtonBar = [
             { icon: 'videocam', name: 'videocam', id: this.buttonBar.videocam },
             { icon: 'thumb_up', name: 'watch', id: this.buttonBar.thumb_up },
             { icon: 'message', name: 'comment', id: this.buttonBar.message },
-            { icon: 'share', name: 'share', id: this.buttonBar.share }
-        ];
+            { icon: 'share', name: 'share', id: this.buttonBar.share }];
         // this.cards = this.videoCard;
         // console.log(this.cards);
     }
@@ -2178,67 +2195,66 @@ var CardComponent = (function () {
     CardComponent.prototype.getDetail = function (videoId) {
         this.router.navigate(['home/videos/' + videoId]);
     };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Object)
+    ], CardComponent.prototype, "videos", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Boolean)
+    ], CardComponent.prototype, "isVideos", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Object)
+    ], CardComponent.prototype, "videoCard", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Object)
+    ], CardComponent.prototype, "index", void 0);
+    CardComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-card',
+            template: __webpack_require__(1064),
+            styles: [__webpack_require__(1033)],
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */]) === 'function' && _a) || Object])
+    ], CardComponent);
     return CardComponent;
+    var _a;
 }());
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Object)
-], CardComponent.prototype, "videos", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Boolean)
-], CardComponent.prototype, "isVideos", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Object)
-], CardComponent.prototype, "videoCard", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Object)
-], CardComponent.prototype, "index", void 0);
-CardComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-card',
-        template: __webpack_require__(1059),
-        styles: [__webpack_require__(1028)],
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */]) === "function" && _a || Object])
-], CardComponent);
-
-var _a;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/card.component.js.map
 
 /***/ }),
 
-/***/ 847:
+/***/ 852:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_videogular2_core__ = __webpack_require__(1127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_videogular2_core__ = __webpack_require__(1132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_videogular2_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_videogular2_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_videogular2_controls__ = __webpack_require__(1126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_videogular2_controls__ = __webpack_require__(1131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_videogular2_controls___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_videogular2_controls__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_videogular2_overlay_play__ = __webpack_require__(1128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_videogular2_overlay_play__ = __webpack_require__(1133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_videogular2_overlay_play___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_videogular2_overlay_play__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_videogular2_buffering__ = __webpack_require__(1125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_videogular2_buffering__ = __webpack_require__(1130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_videogular2_buffering___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_videogular2_buffering__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_flex_layout__ = __webpack_require__(756);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angular2_swiper_wrapper__ = __webpack_require__(864);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_flex_layout__ = __webpack_require__(761);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angular2_swiper_wrapper__ = __webpack_require__(869);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angular2_swiper_wrapper___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_angular2_swiper_wrapper__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__swiper_swiper_component__ = __webpack_require__(851);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__nav_nav_component__ = __webpack_require__(849);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__card_card_component__ = __webpack_require__(846);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__card_footer_card_footer_component__ = __webpack_require__(845);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__horizontal_bar_horizontal_bar_component__ = __webpack_require__(848);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__single_media_player_single_media_player_component__ = __webpack_require__(850);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__video_grid_video_grid_component__ = __webpack_require__(853);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__truncate__ = __webpack_require__(852);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_angular2_moment__ = __webpack_require__(862);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__swiper_swiper_component__ = __webpack_require__(856);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__nav_nav_component__ = __webpack_require__(854);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__card_card_component__ = __webpack_require__(851);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__card_footer_card_footer_component__ = __webpack_require__(850);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__horizontal_bar_horizontal_bar_component__ = __webpack_require__(853);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__single_media_player_single_media_player_component__ = __webpack_require__(855);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__video_grid_video_grid_component__ = __webpack_require__(858);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__truncate__ = __webpack_require__(857);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_angular2_moment__ = __webpack_require__(867);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19_angular2_moment__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2247,33 +2263,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
-
-
-
-//material 
-
-//video player
-
-
-
-
-//layout
-// import { LayoutModule } from 'ng2-flex-layout';
-
-//swiper
-
-
-//components
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 
 
 
 
-//pipes
 
-//moment.js
+
+
+
+
+
+
+
+
+
+
+
+
 
 var SWIPER_CONFIG = {
     direction: 'horizontal',
@@ -2286,34 +2297,33 @@ var SWIPER_CONFIG = {
 var ComponentModule = (function () {
     function ComponentModule() {
     }
+    ComponentModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2__angular_common__["CommonModule"],
+                __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* RouterModule */],
+                __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MaterialModule */],
+                __WEBPACK_IMPORTED_MODULE_5_videogular2_core__["VgCoreModule"],
+                __WEBPACK_IMPORTED_MODULE_6_videogular2_controls__["VgControlsModule"],
+                __WEBPACK_IMPORTED_MODULE_7_videogular2_overlay_play__["VgOverlayPlayModule"],
+                __WEBPACK_IMPORTED_MODULE_8_videogular2_buffering__["VgBufferingModule"],
+                __WEBPACK_IMPORTED_MODULE_9__angular_flex_layout__["FlexLayoutModule"],
+                __WEBPACK_IMPORTED_MODULE_19_angular2_moment__["MomentModule"],
+                __WEBPACK_IMPORTED_MODULE_10_angular2_swiper_wrapper__["SwiperModule"].forRoot(SWIPER_CONFIG)
+            ],
+            declarations: [__WEBPACK_IMPORTED_MODULE_12__nav_nav_component__["a" /* NavComponent */], __WEBPACK_IMPORTED_MODULE_13__card_card_component__["a" /* CardComponent */], __WEBPACK_IMPORTED_MODULE_14__card_footer_card_footer_component__["a" /* CardFooterComponent */], __WEBPACK_IMPORTED_MODULE_15__horizontal_bar_horizontal_bar_component__["a" /* HorizontalBarComponent */], __WEBPACK_IMPORTED_MODULE_16__single_media_player_single_media_player_component__["a" /* SingleMediaPlayerComponent */], __WEBPACK_IMPORTED_MODULE_11__swiper_swiper_component__["a" /* SwiperComponent */], __WEBPACK_IMPORTED_MODULE_17__video_grid_video_grid_component__["a" /* VideoGridComponent */], __WEBPACK_IMPORTED_MODULE_18__truncate__["a" /* TruncatePipe */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_2__angular_common__["CommonModule"], __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormsModule */], __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MaterialModule */], __WEBPACK_IMPORTED_MODULE_9__angular_flex_layout__["FlexLayoutModule"], __WEBPACK_IMPORTED_MODULE_12__nav_nav_component__["a" /* NavComponent */], __WEBPACK_IMPORTED_MODULE_13__card_card_component__["a" /* CardComponent */], __WEBPACK_IMPORTED_MODULE_14__card_footer_card_footer_component__["a" /* CardFooterComponent */], __WEBPACK_IMPORTED_MODULE_15__horizontal_bar_horizontal_bar_component__["a" /* HorizontalBarComponent */], __WEBPACK_IMPORTED_MODULE_16__single_media_player_single_media_player_component__["a" /* SingleMediaPlayerComponent */], __WEBPACK_IMPORTED_MODULE_11__swiper_swiper_component__["a" /* SwiperComponent */], __WEBPACK_IMPORTED_MODULE_17__video_grid_video_grid_component__["a" /* VideoGridComponent */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], ComponentModule);
     return ComponentModule;
 }());
-ComponentModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_2__angular_common__["CommonModule"],
-            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* RouterModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MaterialModule */],
-            __WEBPACK_IMPORTED_MODULE_5_videogular2_core__["VgCoreModule"],
-            __WEBPACK_IMPORTED_MODULE_6_videogular2_controls__["VgControlsModule"],
-            __WEBPACK_IMPORTED_MODULE_7_videogular2_overlay_play__["VgOverlayPlayModule"],
-            __WEBPACK_IMPORTED_MODULE_8_videogular2_buffering__["VgBufferingModule"],
-            //LayoutModule,
-            __WEBPACK_IMPORTED_MODULE_9__angular_flex_layout__["FlexLayoutModule"],
-            __WEBPACK_IMPORTED_MODULE_19_angular2_moment__["MomentModule"],
-            __WEBPACK_IMPORTED_MODULE_10_angular2_swiper_wrapper__["SwiperModule"].forRoot(SWIPER_CONFIG)
-        ],
-        declarations: [__WEBPACK_IMPORTED_MODULE_12__nav_nav_component__["a" /* NavComponent */], __WEBPACK_IMPORTED_MODULE_13__card_card_component__["a" /* CardComponent */], __WEBPACK_IMPORTED_MODULE_14__card_footer_card_footer_component__["a" /* CardFooterComponent */], __WEBPACK_IMPORTED_MODULE_15__horizontal_bar_horizontal_bar_component__["a" /* HorizontalBarComponent */], __WEBPACK_IMPORTED_MODULE_16__single_media_player_single_media_player_component__["a" /* SingleMediaPlayerComponent */], __WEBPACK_IMPORTED_MODULE_11__swiper_swiper_component__["a" /* SwiperComponent */], __WEBPACK_IMPORTED_MODULE_17__video_grid_video_grid_component__["a" /* VideoGridComponent */], __WEBPACK_IMPORTED_MODULE_18__truncate__["a" /* TruncatePipe */]],
-        exports: [__WEBPACK_IMPORTED_MODULE_2__angular_common__["CommonModule"], __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormsModule */], __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MaterialModule */], __WEBPACK_IMPORTED_MODULE_9__angular_flex_layout__["FlexLayoutModule"], __WEBPACK_IMPORTED_MODULE_12__nav_nav_component__["a" /* NavComponent */], __WEBPACK_IMPORTED_MODULE_13__card_card_component__["a" /* CardComponent */], __WEBPACK_IMPORTED_MODULE_14__card_footer_card_footer_component__["a" /* CardFooterComponent */], __WEBPACK_IMPORTED_MODULE_15__horizontal_bar_horizontal_bar_component__["a" /* HorizontalBarComponent */], __WEBPACK_IMPORTED_MODULE_16__single_media_player_single_media_player_component__["a" /* SingleMediaPlayerComponent */], __WEBPACK_IMPORTED_MODULE_11__swiper_swiper_component__["a" /* SwiperComponent */], __WEBPACK_IMPORTED_MODULE_17__video_grid_video_grid_component__["a" /* VideoGridComponent */]]
-    })
-], ComponentModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/component.module.js.map
 
 /***/ }),
 
-/***/ 848:
+/***/ 853:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2325,30 +2335,33 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 var HorizontalBarComponent = (function () {
     function HorizontalBarComponent() {
     }
+    HorizontalBarComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-horizontal-bar',
+            template: __webpack_require__(1065),
+            styles: [__webpack_require__(1034)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], HorizontalBarComponent);
     return HorizontalBarComponent;
 }());
-HorizontalBarComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-horizontal-bar',
-        template: __webpack_require__(1060),
-        styles: [__webpack_require__(1029)]
-    })
-], HorizontalBarComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/horizontal-bar.component.js.map
 
 /***/ }),
 
-/***/ 849:
+/***/ 854:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2373,23 +2386,22 @@ var NavComponent = (function () {
             this.router.navigate(['home/videos/search/' + this.searchString]);
         }
     };
+    NavComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-nav',
+            template: __webpack_require__(1066),
+            styles: [__webpack_require__(1035)]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */]) === 'function' && _a) || Object])
+    ], NavComponent);
     return NavComponent;
+    var _a;
 }());
-NavComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-nav',
-        template: __webpack_require__(1061),
-        styles: [__webpack_require__(1030)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */]) === "function" && _a || Object])
-], NavComponent);
-
-var _a;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/nav.component.js.map
 
 /***/ }),
 
-/***/ 850:
+/***/ 855:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2410,26 +2422,25 @@ var SingleMediaPlayerComponent = (function () {
     }
     SingleMediaPlayerComponent.prototype.ngOnInit = function () {
     };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Object)
+    ], SingleMediaPlayerComponent.prototype, "video", void 0);
+    SingleMediaPlayerComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-single-media-player',
+            template: __webpack_require__(1068),
+            styles: [__webpack_require__(1037)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], SingleMediaPlayerComponent);
     return SingleMediaPlayerComponent;
 }());
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Object)
-], SingleMediaPlayerComponent.prototype, "video", void 0);
-SingleMediaPlayerComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-single-media-player',
-        template: __webpack_require__(1063),
-        styles: [__webpack_require__(1032)]
-    }),
-    __metadata("design:paramtypes", [])
-], SingleMediaPlayerComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/single-media-player.component.js.map
 
 /***/ }),
 
-/***/ 851:
+/***/ 856:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2450,11 +2461,9 @@ var SwiperComponent = (function () {
         this.videoCards = [];
     }
     SwiperComponent.prototype.ngOnInit = function () {
-        console.log('nginit');
         this.videoCards = this.videos;
     };
     SwiperComponent.prototype.ngOnChanges = function (changes) {
-        console.log('OnChanges');
         if (changes['videos']) {
             console.log('video changes');
             this.videoCards = this.videos;
@@ -2466,30 +2475,29 @@ var SwiperComponent = (function () {
     SwiperComponent.prototype.onReachEnd = function (event) {
         console.log('Swiper at the end!');
     };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Object)
+    ], SwiperComponent.prototype, "videos", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Number)
+    ], SwiperComponent.prototype, "slidesPerPage", void 0);
+    SwiperComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-swiper',
+            template: __webpack_require__(1069),
+            styles: [__webpack_require__(1038)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], SwiperComponent);
     return SwiperComponent;
 }());
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Object)
-], SwiperComponent.prototype, "videos", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Number)
-], SwiperComponent.prototype, "slidesPerPage", void 0);
-SwiperComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-swiper',
-        template: __webpack_require__(1064),
-        styles: [__webpack_require__(1033)]
-    }),
-    __metadata("design:paramtypes", [])
-], SwiperComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/swiper.component.js.map
 
 /***/ }),
 
-/***/ 852:
+/***/ 857:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2500,6 +2508,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 var TruncatePipe = (function () {
@@ -2515,19 +2526,19 @@ var TruncatePipe = (function () {
             return value.length > limit ? value.substring(0, limit) + trail : value;
         }
     };
+    TruncatePipe = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"])({
+            name: 'truncate'
+        }), 
+        __metadata('design:paramtypes', [])
+    ], TruncatePipe);
     return TruncatePipe;
 }());
-TruncatePipe = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"])({
-        name: 'truncate'
-    })
-], TruncatePipe);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/truncate.js.map
 
 /***/ }),
 
-/***/ 853:
+/***/ 858:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2549,46 +2560,45 @@ var VideoGridComponent = (function () {
     }
     VideoGridComponent.prototype.ngOnInit = function () {
     };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Object)
+    ], VideoGridComponent.prototype, "videos", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Number)
+    ], VideoGridComponent.prototype, "itemPerColumn", void 0);
+    VideoGridComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-video-grid',
+            template: __webpack_require__(1070),
+            styles: [__webpack_require__(1039)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], VideoGridComponent);
     return VideoGridComponent;
 }());
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Object)
-], VideoGridComponent.prototype, "videos", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Number)
-], VideoGridComponent.prototype, "itemPerColumn", void 0);
-VideoGridComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-video-grid',
-        template: __webpack_require__(1065),
-        styles: [__webpack_require__(1034)]
-    }),
-    __metadata("design:paramtypes", [])
-], VideoGridComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/video-grid.component.js.map
 
 /***/ }),
 
-/***/ 854:
+/***/ 859:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_component__ = __webpack_require__(485);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_routes__ = __webpack_require__(855);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared_module__ = __webpack_require__(490);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_component_module__ = __webpack_require__(847);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__video_gallary_header_video_gallary_header_component__ = __webpack_require__(859);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__popular_videos_list_popular_videos_list_component__ = __webpack_require__(857);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__latest_videos_list_latest_videos_list_component__ = __webpack_require__(856);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__video_detail_video_detail_component__ = __webpack_require__(487);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__related_video_component_related_video_component_component__ = __webpack_require__(858);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__search_video_component_search_video_component_component__ = __webpack_require__(486);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__collection_collection_component__ = __webpack_require__(484);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__videos_videos_component__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_component__ = __webpack_require__(481);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_routes__ = __webpack_require__(860);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared_module__ = __webpack_require__(486);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_component_module__ = __webpack_require__(852);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__video_gallary_header_video_gallary_header_component__ = __webpack_require__(864);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__popular_videos_list_popular_videos_list_component__ = __webpack_require__(862);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__latest_videos_list_latest_videos_list_component__ = __webpack_require__(861);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__video_detail_video_detail_component__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__related_video_component_related_video_component_component__ = __webpack_require__(863);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__search_video_component_search_video_component_component__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__collection_collection_component__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__videos_videos_component__ = __webpack_require__(485);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__videos_video_service__ = __webpack_require__(133);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2596,6 +2606,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -2614,42 +2627,45 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var HomeModule = (function () {
     function HomeModule() {
     }
+    HomeModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__shared_shared_module__["a" /* SharedModule */],
+                __WEBPACK_IMPORTED_MODULE_3__shared_shared_module__["a" /* SharedModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_component_module__["a" /* ComponentModule */],
+                __WEBPACK_IMPORTED_MODULE_2__home_routes__["a" /* HomeRoutingModule */]
+            ],
+            declarations: [__WEBPACK_IMPORTED_MODULE_1__home_component__["a" /* HomeComponent */], __WEBPACK_IMPORTED_MODULE_5__video_gallary_header_video_gallary_header_component__["a" /* VideoGallaryHeaderComponent */], __WEBPACK_IMPORTED_MODULE_6__popular_videos_list_popular_videos_list_component__["a" /* PopularVideosListComponent */], __WEBPACK_IMPORTED_MODULE_7__latest_videos_list_latest_videos_list_component__["a" /* LatestVideosListComponent */], __WEBPACK_IMPORTED_MODULE_8__video_detail_video_detail_component__["a" /* VideoDetailComponent */], __WEBPACK_IMPORTED_MODULE_9__related_video_component_related_video_component_component__["a" /* RelatedVideoComponentComponent */], __WEBPACK_IMPORTED_MODULE_10__search_video_component_search_video_component_component__["a" /* SearchVideoComponentComponent */], __WEBPACK_IMPORTED_MODULE_11__collection_collection_component__["a" /* CollectionComponent */], __WEBPACK_IMPORTED_MODULE_12__videos_videos_component__["a" /* VideosComponent */]],
+            providers: [__WEBPACK_IMPORTED_MODULE_13__videos_video_service__["a" /* VideoService */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], HomeModule);
     return HomeModule;
 }());
-HomeModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_3__shared_shared_module__["a" /* SharedModule */],
-            __WEBPACK_IMPORTED_MODULE_3__shared_shared_module__["a" /* SharedModule */],
-            __WEBPACK_IMPORTED_MODULE_4__components_component_module__["a" /* ComponentModule */],
-            __WEBPACK_IMPORTED_MODULE_2__home_routes__["a" /* HomeRoutingModule */]
-        ],
-        declarations: [__WEBPACK_IMPORTED_MODULE_1__home_component__["a" /* HomeComponent */], __WEBPACK_IMPORTED_MODULE_5__video_gallary_header_video_gallary_header_component__["a" /* VideoGallaryHeaderComponent */], __WEBPACK_IMPORTED_MODULE_6__popular_videos_list_popular_videos_list_component__["a" /* PopularVideosListComponent */], __WEBPACK_IMPORTED_MODULE_7__latest_videos_list_latest_videos_list_component__["a" /* LatestVideosListComponent */], __WEBPACK_IMPORTED_MODULE_8__video_detail_video_detail_component__["a" /* VideoDetailComponent */], __WEBPACK_IMPORTED_MODULE_9__related_video_component_related_video_component_component__["a" /* RelatedVideoComponentComponent */], __WEBPACK_IMPORTED_MODULE_10__search_video_component_search_video_component_component__["a" /* SearchVideoComponentComponent */], __WEBPACK_IMPORTED_MODULE_11__collection_collection_component__["a" /* CollectionComponent */], __WEBPACK_IMPORTED_MODULE_12__videos_videos_component__["a" /* VideosComponent */]],
-        providers: [__WEBPACK_IMPORTED_MODULE_13__videos_video_service__["a" /* VideoService */]]
-    })
-], HomeModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/home.module.js.map
 
 /***/ }),
 
-/***/ 855:
+/***/ 860:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_component__ = __webpack_require__(485);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__video_detail_video_detail_component__ = __webpack_require__(487);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__search_video_component_search_video_component_component__ = __webpack_require__(486);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__collection_collection_component__ = __webpack_require__(484);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__videos_videos_component__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_component__ = __webpack_require__(481);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__video_detail_video_detail_component__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__search_video_component_search_video_component_component__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__collection_collection_component__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__videos_videos_component__ = __webpack_require__(485);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
 
@@ -2673,20 +2689,20 @@ var videoGallaryRoutes = [
 var HomeRoutingModule = (function () {
     function HomeRoutingModule() {
     }
+    HomeRoutingModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(videoGallaryRoutes)],
+            exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], HomeRoutingModule);
     return HomeRoutingModule;
 }());
-HomeRoutingModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(videoGallaryRoutes)],
-        exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
-    })
-], HomeRoutingModule);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/home.routes.js.map
 
 /***/ }),
 
-/***/ 856:
+/***/ 861:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2746,23 +2762,22 @@ var LatestVideosListComponent = (function () {
     LatestVideosListComponent.prototype.hideSpinner = function () {
         this.showSpinner = false;
     };
+    LatestVideosListComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-latest-videos-list',
+            template: __webpack_require__(1073),
+            styles: [__webpack_require__(1041)]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__["a" /* LoaderService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__["a" /* LoaderService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__videos_video_service__["a" /* VideoService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__videos_video_service__["a" /* VideoService */]) === 'function' && _b) || Object])
+    ], LatestVideosListComponent);
     return LatestVideosListComponent;
+    var _a, _b;
 }());
-LatestVideosListComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-latest-videos-list',
-        template: __webpack_require__(1068),
-        styles: [__webpack_require__(1036)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__["a" /* LoaderService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared_services_loader_service__["a" /* LoaderService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__videos_video_service__["a" /* VideoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__videos_video_service__["a" /* VideoService */]) === "function" && _b || Object])
-], LatestVideosListComponent);
-
-var _a, _b;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/latest-videos-list.component.js.map
 
 /***/ }),
 
-/***/ 857:
+/***/ 862:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2818,23 +2833,22 @@ var PopularVideosListComponent = (function () {
     PopularVideosListComponent.prototype.hideSpinner = function () {
         this.showSpinner = false;
     };
+    PopularVideosListComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-popular-videos-list',
+            template: __webpack_require__(1074),
+            styles: [__webpack_require__(1042)]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__videos_video_service__["a" /* VideoService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__videos_video_service__["a" /* VideoService */]) === 'function' && _a) || Object])
+    ], PopularVideosListComponent);
     return PopularVideosListComponent;
+    var _a;
 }());
-PopularVideosListComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-popular-videos-list',
-        template: __webpack_require__(1069),
-        styles: [__webpack_require__(1037)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__videos_video_service__["a" /* VideoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__videos_video_service__["a" /* VideoService */]) === "function" && _a || Object])
-], PopularVideosListComponent);
-
-var _a;
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/popular-videos-list.component.js.map
 
 /***/ }),
 
-/***/ 858:
+/***/ 863:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2855,26 +2869,25 @@ var RelatedVideoComponentComponent = (function () {
     }
     RelatedVideoComponentComponent.prototype.ngOnInit = function () {
     };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Array)
+    ], RelatedVideoComponentComponent.prototype, "relatedVideos", void 0);
+    RelatedVideoComponentComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-related-video-component',
+            template: __webpack_require__(1075),
+            styles: [__webpack_require__(1043)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], RelatedVideoComponentComponent);
     return RelatedVideoComponentComponent;
 }());
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
-    __metadata("design:type", Array)
-], RelatedVideoComponentComponent.prototype, "relatedVideos", void 0);
-RelatedVideoComponentComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-related-video-component',
-        template: __webpack_require__(1070),
-        styles: [__webpack_require__(1038)]
-    }),
-    __metadata("design:paramtypes", [])
-], RelatedVideoComponentComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/related-video-component.component.js.map
 
 /***/ }),
 
-/***/ 859:
+/***/ 864:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2893,22 +2906,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var VideoGallaryHeaderComponent = (function () {
     function VideoGallaryHeaderComponent() {
     }
+    VideoGallaryHeaderComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-video-gallary-header',
+            template: __webpack_require__(1078),
+            styles: [__webpack_require__(1046)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], VideoGallaryHeaderComponent);
     return VideoGallaryHeaderComponent;
 }());
-VideoGallaryHeaderComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-video-gallary-header',
-        template: __webpack_require__(1073),
-        styles: [__webpack_require__(1041)]
-    }),
-    __metadata("design:paramtypes", [])
-], VideoGallaryHeaderComponent);
-
 //# sourceMappingURL=C:/Work/Facile Technolab/projects/git/video-gallary/src/video-gallary-header.component.js.map
 
 /***/ }),
 
-/***/ 860:
+/***/ 865:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2917,7 +2929,6 @@ VideoGallaryHeaderComponent = __decorate([
 // The build system defaults to the dev environment which uses `environment.ts`, but if you do
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
     production: false
 };
@@ -2925,44 +2936,42 @@ var environment = {
 
 /***/ }),
 
-/***/ 861:
+/***/ 866:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(880);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(885);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(873);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(878);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(869);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(874);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(875);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(880);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(874);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(879);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(872);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(877);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(871);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(876);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(879);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(884);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(868);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(873);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(867);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(872);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(877);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(882);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(870);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(875);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(878);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(883);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(876);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(881);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(881);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(886);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(1148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(1153);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__);
-// This file includes polyfills needed by Angular 2 and is loaded before
-// the app. You can add your own extra polyfills to this file.
 
 
 
@@ -2983,5 +2992,5 @@ var environment = {
 
 /***/ })
 
-},[1149]);
+},[1154]);
 //# sourceMappingURL=main.bundle.js.map
